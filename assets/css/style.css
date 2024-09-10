@@ -1,0 +1,939 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap";
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* ======================================================
+    Sidebar Css Start
+====================================================== */
+
+.bdt-page-body-wraper {
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+}
+
+.bdt-sidebar-wraper {
+    min-height: calc(100vh - 80px);
+    background: #1c45ef;
+    width: 270px;
+    min-width: 270px;
+    transition: all .3s ease; 
+  }
+
+  .bdt-nav-profile {
+    padding: 36px;
+}
+
+.bdt-nav-link-profile:hover {
+    text-decoration: none;
+}
+
+.bdt-nav-link-profile {
+    display: flex;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.bdt-profile-image {
+    position: relative;
+    float: left;
+}
+
+.bdt-profile-image img {
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.bdt-nav-profile .bdt-nav-link-profile .bdt-dot-indicator {
+    position: absolute;
+    bottom: 4px;
+    left: 42px;
+}
+
+.bdt-bg-success {
+    background-color: #19d895;
+}
+
+.bdt-dot-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}
+
+.bdt-text-wrapper {
+    padding-left: 12px;
+}
+
+.bdt-profile-name {
+    margin: 0;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    padding: 0;
+}
+
+.bdt-designation {
+    margin: 0;
+    font-weight: 400;
+    color: #fff;
+    padding: 0;
+    font-size: 14px;
+}
+
+.bdt-nav-title {
+    color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+    margin: 0 30px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0px 15px 0px;
+    margin-top: -16px;
+    margin-bottom: 10px;
+}
+
+.bdt-nav-item {
+    line-height: 40px;
+}
+
+li.uk-parent.bdt-nav-item.uk-open .bdt-nav-link {
+    background: #152cd0bf;
+}
+
+.bdt-nav-link:hover {
+    background: #152cd0bf;
+}
+
+.bdt-sub-menu-item {
+    padding-left: 50px;
+}
+
+.bdt-sub-menu-item .bdt-sub-menu-title {
+    color: #fff;
+}
+
+.bdt-menu-icons.uk-icon {
+    color: #fff;
+    padding-left: 30px;
+}
+
+.bdt-menu-title {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.bdt-nav-item:hover .bdt-menu-title {
+    padding-left: 15px;
+}
+
+.bdt-sidebar-wraper .uk-nav-parent-icon>.uk-parent>a::after {
+    background-color: #1c45ef;
+    background-blend-mode: screen;
+    background-position: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+
+/* // ==================================
+// ========================================
+// ==================================================== */
+
+
+/* ======================================================
+    Main Panel Css Start
+====================================================== */
+
+
+.bdt-main-panel {
+    background: #f8f8f8;
+    padding: 30px;
+    width: 100%;
+}
+/* // ==================================
+// ========================================
+// ==================================================== */
+
+.bdt-page-header {
+    padding-bottom: 18px;
+    border-bottom: 1px solid #6f6f6f2e;
+}
+
+.bdt-quick-link-wrapper {
+    display: inline-block;
+}
+
+.bdt-page-header .bdt-page-title {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222c4;
+}
+
+.bdt-page-header .bdt-quick-links1, .bdt-quick-links2 {
+    display: inherit;
+    padding-top: 5px;
+    padding-left: 12px;
+    margin: 0;
+    list-style: none;
+}
+
+.bdt-quick-links1 a, .bdt-quick-links2 a {
+    text-decoration: none;
+    padding-left: 14px;
+    border-right: 1px solid #00000052;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 15px;
+    color: #222222c7;
+}
+
+.bdt-quick-links1 :last-child a {
+    border: none;
+}
+
+.bdt-quick-links2 {
+    margin-left: auto;
+}
+
+.bdt-quick-links2 :last-child a {
+    border: none;
+}
+
+/* ======================================================
+    Dashboard Header Toolbar Start
+====================================================== */
+
+.bdt-dashboard-header-toolbar-content .bdt-flx {
+    display: block;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-header-group-button {
+    margin-bottom: 5px;
+}
+
+.bdt-dashboard-header-toolbar-content.bdt-dropdown-button {
+    margin-bottom: 5px;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-sort-wrapper-button{
+    margin-bottom: 5px;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-advanced-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-header-group-button .bdt-group-button {
+    padding: 0 16px;
+    background: #d3dce5;
+    transition: all .3s ease;
+    color: #333;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-header-group-button .bdt-group-button:hover {
+    background: #bdcbd8;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-header-group-button .bdt-group-button span {
+    color: #2196f3;
+}
+
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper .bdt-dropdown-button button {
+    background: #d3dce5;
+    color: #333;
+    transition: all .3s ease;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper .bdt-dropdown-button button:hover {
+    background: #bdcbd8;
+}
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper .bdt-dropdown-button a {
+    color: #2196f3;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper .bdt-dashboard-dropdown-menu {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper .bdt-dashboard-dropdown-menu .bdt-dashboard-dropdown-item {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding: 14px 0;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper .bdt-dashboard-dropdown-menu .bdt-dashboard-dropdown-item li:hover {
+    background: #e5e5e5;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper .bdt-dashboard-dropdown-menu .bdt-dashboard-dropdown-item li a {
+    text-decoration: none;
+    color: #333;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.bdt-advanced-link.uk-margin-left {
+    align-items: center;
+    display: flex;
+}
+
+
+/*==============*/
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper-style-2 {
+    margin-left: auto;
+}
+
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper-style-2 .bdt-dropdown-button-style-2 button {
+    background: #d3dce5;
+    color: #333;
+    transition: all .3s ease;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper-style-2 .bdt-dropdown-button-style-2 button:hover {
+    background: #bdcbd8;
+}
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper-style-2 .bdt-dropdown-button-style-2 a {
+    color: #2196f3;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper-style-2 .bdt-dashboard-dropdown-menu-style-2 {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper-style-2 .bdt-dashboard-dropdown-item-style-2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding: 14px 0;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper-style-2 .bdt-dashboard-dropdown-menu-style-2 .bdt-dashboard-dropdown-item-style-2 li:hover {
+    background: #e5e5e5;
+}
+
+.bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper-style-2 
+.bdt-dashboard-dropdown-menu-style-2 .bdt-dashboard-dropdown-item-style-2 li a {
+    text-decoration: none;
+    color: #333;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+
+
+/* ======================================================
+    Dashboard Header Toolbar End
+====================================================== */
+
+
+.bdt-card-body-wrapper {
+    padding-top: 20px;
+}
+
+.uk-card.uk-card-default.uk-card-body {
+    padding: 40px;
+}
+
+.bdt-content-wrapper h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: roboto;
+}
+
+.bdt-content-wrapper h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #2a4ef0;
+    font-weight: 500;
+    font-family: roboto;
+}
+
+.bdt-content-wrapper p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: roboto;
+}
+
+.bdt-chart-wrapper {
+    padding-left: 15px;
+    align-items: center;
+    display: flex;
+}
+
+/* // ==================================
+// ========================================
+// ==================================================== */
+
+.bdt-chart-area {
+    padding-top: 20px;
+}
+.bdt-chart-area .uk-table-hover tbody tr:hover, 
+.bdt-chart-area .uk-table-hover>tr:hover {
+    background: rgba(28, 69, 239, .1);
+}
+.bdt-card-header-title h4 {
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.bdt-card-header-title p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+.bdt-data-wrapper {
+    padding-top: 20px;
+}
+
+.bdt-data-wrapper-content h5 {
+    color: #000;
+    font-weight: 400;
+}
+
+.bdt-data-content {
+    display: flex;
+    align-items: center;
+}
+
+.bdt-data-content h4 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+}
+
+.bdt-content-wrapper p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: roboto;
+}
+
+.bdt-data-content strong {
+    font-size: 14px;
+    color: #000;
+}
+
+.bdt-data-content p {
+    padding-left: 10px !important;
+    font-size: 14px;
+}
+
+
+.bdt-data-wrapper-content.pt-2 {
+    margin: auto;
+    
+}
+
+
+
+#mapchart {
+    width: 100%;
+    height: 259px;
+}
+
+
+  .bdt-mb {
+    margin-bottom: 45px;
+}
+
+  .bdt-performer-wrapper {
+    padding-top: 10px;
+}
+
+.bdt-performer-wrapper {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #6f6f6f42;
+}
+
+.bdt-performer-wrapper img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.bdt-text-performer {
+    padding-left: 25px;
+}
+
+.bdt-text-performer h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.bdt-text-performer p {
+    font-size: 14px;
+    color: #000000b3;
+}
+
+.bdt-hours {
+    margin-left: auto;
+}
+
+.bdt-hours span {
+    font-size: 15px;
+}
+
+
+.bdt-brb{
+    border-bottom: none;
+}
+
+
+
+
+.bdt-dot-indicator-Progress ,.bdt-dot-indicator-Progress2 {
+    background: #ff6258;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    margin-top: 6px;
+}
+
+.bdt-dot-indicator-Progress2 {
+    background: #1e87f0;
+}
+
+.bdt-progress-bar {
+    padding-bottom: 39px;
+}
+
+.bdt-text-progress p {
+    color: #000000d9;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+
+.bdt-progress-bar h3 {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+
+#js-progressbar ,#js-progressbar2 {
+    margin: 0;
+    margin-top: 5px;
+    height: 10px;
+}
+
+
+.bdt-accordion-title {
+    background: #f8f8f8;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #656a84;
+    transition: all .3s ease;
+}
+li.uk-open .bdt-accordion-title, 
+.bdt-accordion-title:hover {
+    color: #000;
+}
+
+
+.bdt-page-body-wraper.uk-flex.uk-flex-row {
+    background: #fff;
+}
+
+/* // ==================================
+// ========================================
+// ==================================================== */
+
+
+
+
+/* ======================================================
+    Dashboard Product Sales Css Start
+====================================================== */
+.bdt-product-sales-area  .uk-table td {
+    vertical-align: middle;
+}
+
+.bdt-product-sales-area .bdt-product-heading {
+    font-size: 18px ;
+    font-weight: 600 ;
+    color: #333333d6 ;
+    text-transform: capitalize;
+}
+
+.bdt-product-sales-area  .bdt-product-name {
+    font-size: 20px;
+}
+
+.bdt-product-sales-area .bdt-customers-image-area  .bdt-customers-group-image img {
+    margin-left: -14px;
+}
+
+.bdt-product-sales-area .bdt-customers-image-area 
+.bdt-customers-group-image img {
+    border: 2px solid #fff;
+    -webkit-box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.2);
+    -webkit-transition: 0.5s;
+    transition: 0.3s;
+    width: 50px;
+    border-radius: 100%;
+    
+}
+
+.bdt-product-sales-area .bdt-customers-image-area 
+.bdt-customers-group-image img:hover {
+    webkit-transform: translateY(-6px) scale(1.01);
+    transform: translateY(-6px) scale(1.01);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
+}
+
+
+.bdt-product-sales-area .bdt-categories-area .bdt-categories-button-style-1 .bdt-button-danger {
+    background: transparent;
+    border: 1px solid #f0506e;
+    border-radius: 30px;
+    text-transform: capitalize;
+    color: #f0506e;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+
+.bdt-product-sales-area .bdt-categories-area .bdt-categories-button-style-1 .bdt-button-danger:hover {
+    background: #f0506e;
+    color: #fff;
+}
+
+.bdt-product-sales-area .bdt-amount {
+    font-size: 20px;
+}
+
+
+.bdt-product-sales-area .bdt-categories-area .bdt-categories-button-style-2 .bdt-button-primary {
+    background: transparent;
+    border: 1px solid #1dca89;
+    border-radius: 30px;
+    text-transform: capitalize;
+    color: #1dca89;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+
+.bdt-product-sales-area .bdt-categories-area .bdt-categories-button-style-2 .bdt-button-primary:hover {
+    background: #1dca89;
+    color: #fff;
+}
+
+/* ======================================================
+    Dashboard Product Sales Css End
+====================================================== */
+
+
+/* ======================================================
+    Dashboard Messages Tweets News Feed Start
+====================================================== */
+
+
+/* ======================================================
+    Dashboard Messages Start
+====================================================== */
+
+.bdt-dashboard-messages-wrapper {
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.bdt-dashboard-messages-wrapper .bdt-dashboard-messages {
+    display: flex;
+}
+
+.bdt-dashboard-messages-wrapper .bdt-dashboard-messages .bdt-messages-image img {
+    width: 52px;
+    border-radius: 100%;
+}
+
+.bdt-dashboard-messages-wrapper .bdt-dashboard-messages .bdt-messages-content a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.bdt-dashboard-messages-wrapper .bdt-dashboard-messages .bdt-messages-content p {
+    font-size: 14px;
+}
+
+.bdt-dashboard-messages {
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 14px;
+}
+
+.bdt-dashboard-messages:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* ======================================================
+    Dashboard Messages End
+====================================================== */
+
+
+
+/* ======================================================
+    Dashboard Tweets Start
+====================================================== */
+
+.bdt-dashboard-tweets-wrapper {
+    background: #3f51b5;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    padding: 20px;
+    border-radius: 3px;
+}
+.dashboard-tweets-haeder-title h4 {
+    font-size: 15px;
+    color: #f8f8f8;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.bdt-dashboard-tweets-wrapper .bdt-dashboard-tweets .bdt-tweets-content p {
+    font-size: 14px;
+    color: #ffffffbf;
+}
+
+.bdt-dashboard-tweets-wrapper .bdt-dashboard-tweets .bdt-tweets-icon-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.bdt-dashboard-tweets-wrapper .bdt-dashboard-tweets .bdt-tweets-icon-wrapper .bdt-tweets-icon a {
+    color: #fff;
+    width: 18px;
+}
+
+.bdt-dashboard-tweets-wrapper .bdt-dashboard-tweets .bdt-tweets-icon-wrapper small {
+    color: #fff;
+}
+
+.bdt-dashboard-tweets {
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 14px;
+}
+
+.bdt-dashboard-tweets:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* ======================================================
+    Dashboard Tweets End
+====================================================== */
+
+/* ======================================================
+    Dashboard News Feed Start
+====================================================== */
+
+.bdt-dashboard-news-feed-wrapper {
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.bdt-dashboard-news-feed-wrapper .bdt-dashboard-news-feed {
+    display: flex;
+}
+
+.bdt-dashboard-news-feed-wrapper .bdt-dashboard-news-feed .bdt-news-feed-image img {
+    width: 52px;
+}
+
+.bdt-dashboard-news-feed-wrapper .bdt-dashboard-news-feed .bdt-news-feed-content a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.bdt-dashboard-news-feed-wrapper .bdt-dashboard-news-feed .bdt-news-feed-content p {
+    font-size: 14px;
+}
+
+.bdt-dashboard-news-feed {
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 14px;
+}
+
+.bdt-dashboard-news-feed:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* ======================================================
+    Dashboard News Feed End
+====================================================== */
+
+
+/* ======================================================
+    Dashboard Messages Tweets News Feed End
+====================================================== */
+
+
+
+/* ======================================================
+    Footer Css Start
+====================================================== */
+
+
+.bdt-footer {
+    margin-top: 30px;
+    border-top: 1px solid #b3adad69;
+    padding-top: 20px;
+}
+
+.bdt-footer .bdt-footer-area-wrapper{
+    display: block;
+}
+
+.bdt-footer-copyright span {
+    font-size: 14px;
+    font-family: roboto;
+}
+
+.bdt-copyright-icon {
+    margin-left: auto;
+}
+
+.bdt-copyright-icon span {
+    font-size: 14px;
+    font-family: roboto;
+}
+
+.bdt-copyright-icon svg {
+    color: #f00;
+    margin-left: 5px;
+    width: 18px;
+}
+
+
+/* ======================================================
+    Footer Css End
+====================================================== */
+
+/* ======================================================
+    Main Panel Css End
+====================================================== */
+
+
+/* ======================================================
+    Page Body Area End
+====================================================== */
+
+
+#offcanvas-nav-primary .uk-offcanvas-bar {
+    background: linear-gradient(to top, #5768f3, #1c45ef);
+    padding: 0px;
+    margin-top: 80px;
+}
+#offcanvas-nav-primary .uk-offcanvas-bar .bdt-sidebar-wraper {
+    min-height: auto;
+    width: 100%;
+    min-width: 270px;
+    background: transparent;
+}
+
+/* ======================================================
+    Responsive Area Start
+====================================================== */
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (min-width: 960px) {
+    .bdt-filter-wrapper-2 {
+        text-align: right;
+    }
+    .bdt-dashboard-header-toolbar-content .bdt-flx {
+        display: flex;
+    }
+
+    .bdt-dashboard-header-toolbar-content .bdt-dashboard-filter-wrapper {
+        margin-left: 20px;
+    }
+
+    .bdt-dashboard-header-toolbar-content .bdt-advanced-link.uk-margin-left {
+        margin-left: 20px;
+    }
+
+    .bdt-dashboard-header-toolbar-content .bdt-sort-wrapper-button {
+        margin-left: 20px;
+    }
+
+    .bdt-advanced-link {
+        margin-left: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 640px) {
+  
+    .bdt-header-navbar-wraper li.bdt-navbar-brand-logo-wraper {
+        width: 270px;
+    }
+
+    .bdt-quick-link-wrapper {
+        display: flex;
+    }
+
+    .bdt-footer .bdt-footer-area-wrapper {
+        display: flex;
+    }
+}
+/* ======================================================
+    Responsive Area End
+====================================================== */
+

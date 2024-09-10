@@ -1,0 +1,478 @@
+/* ================================================
+    Pricing Area CSS Start
+================================================ */
+
+/* ================================================
+    Pricing Style-1 CSS Start
+================================================ */
+
+.bdt-pricing-wrapper-style-1 {
+    background: #fff;
+    box-shadow: 0 0 10px 5px rgba(68,102,242,.05);
+    padding-top: 30px;
+    border-radius: 8px;
+}
+
+.bdt-pricing-wrapper-style-1 .bdt-pricing-content-style-1 h2 {
+    font-size: 1.75rem;
+    color: #333;
+    margin: 0;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.bdt-pricing-wrapper-style-1 .bdt-pricing-content-style-1 .uk-divider-small::after {
+    content: "";
+    display: inline-block;
+    width: 80px;
+    max-width: 100%;
+    border-top: 1px solid #7d7575;
+    vertical-align: top;
+}
+
+
+.bdt-pricing-wrapper-style-1 .bdt-pricing-content-style-1 h1 {
+    margin: 0;
+    font-size: 75px;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+.bdt-pricing-wrapper-style-1 .bdt-pricing-content-style-1 h6 {
+    margin: 0;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.bdt-pricing-wrapper-style-1 .bdt-pricing-button-style-1 a {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background: #1c45ef;
+    transition: all ease .3s;
+}
+
+.bdt-pricing-wrapper-style-1 .bdt-pricing-button-style-1 a:hover {
+    background: #1439d4;
+}
+
+/* ================================================
+    Pricing Style-1 CSS End
+================================================ */
+
+
+/* ================================================
+    Pricing Style-2 CSS Start
+================================================ */
+
+.bdt-pricing-block-wrapper-style-2{
+
+    background: #fff;
+    box-shadow: 0 0 10px 5px rgba(68,102,242,.05);
+    padding-bottom: 40px;
+    border-radius: 8px;
+}
+
+
+.bdt-pricing-block-wrapper-style-2 svg g path {
+    fill: #4466f2;
+}
+
+.bdt-pricing-block-wrapper-style-2 svg {
+    border-radius: 8px;
+}
+
+
+.bdt-pricing-block-wrapper-style-2 .bdt-pricing-content-style-2 h3 {
+    color: #4466f2;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.bdt-pricing-block-wrapper-style-2 .bdt-pricing-item-style-2 {
+    padding: 0;
+}
+
+.bdt-pricing-block-wrapper-style-2 .bdt-pricing-item-style-2 li {
+    list-style: none;
+}
+
+.bdt-pricing-block-wrapper-style-2 .bdt-pricing-item-style-2 li h6 {
+    font-size: 17px;
+    font-weight: 400;
+}
+.bdt-pricing-block-wrapper-style-2 .bdt-pricing-item-style-2 li strong {
+    font-size: 16px;
+}
+
+
+.bdt-pricing-block-wrapper-style-2 .bdt-pricing-button-style-2 a {
+    background: #4466f2f2;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+
+.bdt-pricing-block-wrapper-style-2 .bdt-pricing-button-style-2 a:hover {
+    background: #254cec;
+}
+
+
+/* ================================================
+    Pricing Style-2 CSS End
+================================================ */
+
+
+/* ================================================
+    Pricing Style-3 CSS Start
+================================================ */
+
+.bdt-pricing-block-wrapper-style-3{
+
+    background: #fff;
+    box-shadow: 0 0 10px 5px rgba(68,102,242,.05);
+    padding-bottom: 40px;
+    border-radius: 8px;
+}
+
+
+.bdt-pricing-block-wrapper-style-3 svg g path {
+    fill: #4466f2;
+}
+
+.bdt-pricing-block-wrapper-style-3 svg {
+    border-radius: 8px;
+}
+
+
+.bdt-pricing-block-wrapper-style-3 .bdt-pricing-content-style-3 h3 {
+    color: #4466f2;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.bdt-pricing-block-wrapper-style-3 .bdt-pricing-item-style-3 {
+    padding: 0;
+}
+
+.bdt-pricing-block-wrapper-style-3 .bdt-pricing-item-style-3 li {
+    list-style: none;
+}
+
+.bdt-pricing-block-wrapper-style-3 .bdt-pricing-item-style-3 li h6 {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.bdt-pricing-block-wrapper-style-3 .bdt-pricing-item-style-3 li strong {
+    font-size: 16px;
+}
+
+
+.bdt-pricing-block-wrapper-style-3 .bdt-pricing-button-style-3 a {
+    background: #4466f2f2;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+
+.bdt-pricing-block-wrapper-style-3 .bdt-pricing-button-style-3 a:hover {
+    background: #254cec;
+}
+
+
+.bdt-pricing-item-style-3 li {
+    border-bottom: 1px solid rgba(68,102,242,.1);
+    margin-top: 10px;
+}
+
+/* ================================================
+    Pricing Style-3 CSS End
+================================================ */
+
+
+/* ================================================
+    Pricing Style-4 CSS Start
+================================================ */
+
+.bdt-pricing-block-wrapper-style-4 {
+
+    background: #fff;
+    box-shadow: 0 0 10px 5px rgba(68,102,242,.05);
+    padding-bottom: 40px;
+    border-radius: 8px;
+}
+
+
+.bdt-pricing-block-wrapper-style-4 svg g path {
+    fill: #4466f2;
+}
+
+.bdt-pricing-block-wrapper-style-4 svg {
+    border-radius: 8px;
+}
+
+
+.bdt-pricing-block-wrapper-style-4 .bdt-pricing-content-style-4 h3 {
+    color: #4466f2;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.bdt-pricing-block-wrapper-style-4 .bdt-pricing-item-style-4 {
+    padding: 0;
+}
+
+.bdt-pricing-block-wrapper-style-4 .bdt-pricing-item-style-4 li {
+    list-style: none;
+}
+
+.bdt-pricing-block-wrapper-style-4 .bdt-pricing-item-style-4 li h6 {
+    font-size: 17px;
+    font-weight: 400;
+}
+.bdt-pricing-block-wrapper-style-4 .bdt-pricing-item-style-4 li strong {
+    font-size: 16px;
+}
+
+
+.bdt-pricing-block-wrapper-style-4 .bdt-pricing-button-style-4 a {
+    background: #4466f2f2;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+
+.bdt-pricing-block-wrapper-style-4 .bdt-pricing-button-style-4 a:hover {
+    background: #254cec;
+}
+
+.bdt-pricing-bg-style-4 {
+    background-color: #476afded;
+}
+
+.bdt-pricing-content-color-style-4{
+    color: #fff;
+}
+
+.bdt-pricing-content-color-style-4 h3 {
+    color: #fff !important;
+}
+
+.bdt-pricing-content-color-style-4 li h6 {
+    color: #fff !important;
+}
+
+/* ================================================
+    Pricing Style-4 CSS End
+================================================ */
+
+
+/* ================================================
+    Pricing Style-5 CSS Start
+================================================ */
+
+.bdt-pricing-block-wrapper-style-5{
+
+    background: #fff;
+    box-shadow: 0 0 10px 5px rgba(68,102,242,.05);
+    padding-bottom: 40px;
+    border-radius: 8px;
+}
+
+
+.bdt-pricing-block-wrapper-style-5 svg g path {
+    fill: #4466f2;
+}
+
+.bdt-pricing-block-wrapper-style-5 svg {
+    border-radius: 8px;
+}
+
+
+.bdt-pricing-block-wrapper-style-5 .bdt-pricing-content-style-5 h3 {
+    color: #4466f2;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.bdt-pricing-block-wrapper-style-5 .bdt-pricing-item-style-5 {
+    padding: 0;
+}
+
+.bdt-pricing-block-wrapper-style-5 .bdt-pricing-item-style-5 li {
+    list-style: none;
+}
+
+.bdt-pricing-block-wrapper-style-5 .bdt-pricing-item-style-5 li h6 {
+    font-size: 17px;
+    font-weight: 400;
+}
+.bdt-pricing-block-wrapper-style-5 .bdt-pricing-item-style-5 li strong {
+    font-size: 16px;
+}
+
+
+.bdt-pricing-block-wrapper-style-5 .bdt-pricing-button-style-5 a {
+    background: #4466f2f2;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+
+.bdt-pricing-block-wrapper-style-5 .bdt-pricing-button-style-5 a:hover {
+    background: #254cec;
+}
+
+.bdt-pricing-block-wrapper-style-5 .bdt-ribbon-bg {
+    background: #ff5370;
+}
+
+.bdt-pricing-block-wrapper-style-5 .bdt-ribbon {
+    padding: 0 20px;
+    height: 26px;
+    line-height: 26px;
+    position: absolute;
+    color: #fff!important;
+    z-index: 1;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.bdt-pricing-block-wrapper-style-5 .bdt-ribbon-bookmark:before {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: block;
+    width: 0;
+    height: 0;
+    content: "";
+    border: 13px solid #ff5370;
+    border-right: 9px solid transparent;
+}
+
+/* ================================================
+    Pricing Style-5 CSS End
+================================================ */
+
+
+/* ================================================
+    Pricing Style-2 CSS Start
+================================================ */
+
+.bdt-pricing-block-wrapper-style-6{
+
+    background: #fff;
+    box-shadow: 0 0 10px 5px rgba(68,102,242,.05);
+    padding-bottom: 40px;
+    border-radius: 8px;
+}
+
+
+.bdt-pricing-block-wrapper-style-6 svg g path {
+    fill: #4466f2;
+}
+
+.bdt-pricing-block-wrapper-style-6 svg {
+    border-radius: 8px;
+}
+
+
+.bdt-pricing-block-wrapper-style-6 .bdt-pricing-content-style-6 h3 {
+    color: #4466f2;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.bdt-pricing-block-wrapper-style-6 .bdt-pricing-item-style-6 {
+    padding: 0;
+}
+
+.bdt-pricing-block-wrapper-style-6 .bdt-pricing-item-style-6 li {
+    list-style: none;
+}
+
+.bdt-pricing-block-wrapper-style-6 .bdt-pricing-item-style-6 li h6 {
+    font-size: 17px;
+    font-weight: 400;
+}
+.bdt-pricing-block-wrapper-style-6 .bdt-pricing-item-style-6 li strong {
+    font-size: 16px;
+}
+
+
+.bdt-pricing-block-wrapper-style-6 .bdt-pricing-button-style-6 a {
+    background: #4466f2f2;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+
+.bdt-pricing-block-wrapper-style-6 .bdt-pricing-button-style-6 a:hover {
+    background: #254cec;
+}
+
+
+.bdt-ribbon-bg-style-6 {
+    background: #ff5370;
+}
+
+.bdt-ribbon-clip-right {
+    right: -14px;
+}
+
+.bdt-ribbon-right {
+    right: 32px;
+    margin-top: 10px;
+}
+
+.bdt-ribbon-style-6 {
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    color: #fff!important;
+    z-index: 1;
+}
+
+.bdt-ribbon-clip-right:before {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 0;
+    height: 0;
+    content: "";
+    border-color: #ff2046 #ff2046 transparent transparent;
+    border-style: solid;
+    border-width: 7px;
+}
+
+
+/* ================================================
+    Pricing Style-2 CSS End
+================================================ */
+
+/* ================================================
+    Pricing Area CSS End
+================================================ */
+
+

@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Tempalte</title>
+    <link rel="stylesheet" href="assets/css/uikit.min.css">
+    <link rel="stylesheet" href="assets/css/buttons.css">
+    <link rel="stylesheet" href="assets/css/dropdown-button.css">
+    <link rel="stylesheet" href="assets/css/form-elements.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/tables.css">
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/blank-page.css">
+    <link rel="stylesheet" href="assets/css/404.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+</head>
+<body>
+    
+    <!--=======================================
+         Header Navbar Area Start
+    =========================================-->
+       <div class="bdt-header-navbar-wraper">
+        <nav class="uk-navbar-container uk-margin bdt-navbar" uk-navbar="mode: click">
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <!--=======================================
+                        Header Logo Area Start
+                    =========================================-->
+                    <li class="bdt-nav-item bdt-navbar-brand-logo-wraper">
+                        <div class="bdt-brand-logo uk-visible@m">
+                            <a href="index.html">
+                                <img src="assets/image/logo/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="bdt-brand-logo uk-hidden@m">
+                            <a href="index.html">
+                                <img class="bdt-logo-mini" src="assets/image/logo/logo-mini.svg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <!--=======================================
+                        Header Logo Area End
+                    =========================================-->
+
+                    <!--=======================================
+                        Header Help Number Area Start
+                    =========================================-->
+
+                    <li class="bdt-help-number uk-visible@m">Help : +050 2992 709</li>
+
+                    <!--=======================================
+                        Header Help Number Area End
+                    =========================================-->
+
+                    <!--=======================================
+                        Header language Area Start
+                    =========================================-->
+
+                    <li class="bdt-language-wrapper">
+                        <a href="#">
+                            <div>
+                                <span class="uk-margin-small-right">
+                                    <img class="bdt-language-icon" src="assets/image/img/usa-today.svg" alt="">
+                                </span>
+                                <span class="bdt-selected-language uk-visible@m"> English</span>
+                                <span class="uk-visible@m" uk-icon="icon: chevron-down"></span>
+                            </div>
+                        </a>
+
+                        <!--=======================================
+                            Header language Dropdown Area Start
+                        =========================================-->
+                        <div class="uk-navbar-dropdown bdt-dropdown-menu-wrapper">
+                            <ul class="uk-nav uk-navbar-dropdown-nav bdt-sub-menu">
+                                <li class="uk-active bdt-sub-item">
+                                    <a href="#">
+                                        <div>
+                                            <span class="uk-margin-small-right">
+                                                <img class="bdt-language-icon" src="assets/image/img/usa-today.svg" alt="">
+                                            </span>
+                                            <span class="bdt-language-name"> English</span>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="bdt-sub-item">
+                                    <a href="#">
+                                        <div>
+                                            <span class="uk-margin-small-right">
+                                                <img class="bdt-language-icon" src="assets/image/img/india.svg" alt="">
+                                            </span>
+                                            <span class="bdt-language-name"> India</span>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="bdt-sub-item">
+                                    <a href="#">
+                                        <div>
+                                            <span class="uk-margin-small-right">
+                                                <img class="bdt-language-icon" src="assets/image/img/pakistan.svg" alt="">
+                                            </span>
+                                            <span class="bdt-language-name">Pakistan</span>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="bdt-sub-item">
+                                    <a href="#">
+                                        <div>
+                                            <span class="uk-margin-small-right">
+                                            <img class="bdt-language-icon" src="assets/image/img/bangladesh.svg" alt=""></span>
+                                            <span class="bdt-language-name">Bangladesh</span>
+                                        </div>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    <!--=======================================
+                            Header language Dropdown Area End
+                    =========================================-->
+                    </li>
+                    <!--=======================================
+                        Header language Area End
+                    =========================================-->
+                </ul>
+            </div>
+
+            <!--=======================================
+                Header Search Area Start
+            =========================================-->
+            <div class="uk-navbar-center">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-visible@xl">
+                        <div class="bdt-from-group">
+                            <form class="uk-search uk-search-default bdt-search-from">
+                                <input class="uk-search-input bdt-search-input" type="search" placeholder="Search Here">
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--=======================================
+                Header Search Area End
+            =========================================-->
+
+            <!--=============================================  
+            Header Notification-Massage-Profile Area Start
+            =============================================-->
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                <!--=======================================
+                    Header Notification Area Start
+                =========================================-->
+                    <li class="bdt-nav-item-notification">
+                        <a href="#">
+                            <span class="bdt-bell-massage-icon" uk-icon="icon:  bell">
+                                <span class="uk-badge">7</span>
+                            </span>
+                        </a>
+                        <div class="uk-navbar-dropdown bdt-dropdown-menu">
+                            <div class="bdt-dropdown-menu-content">
+                                <span>You have 7 unread mails</span>
+                                <a href="#"><span class="uk-badge bdt-badge-pill">view all</span></a>
+                            </div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav bdt-sub-menu">
+                                <li class="uk-active bdt-sub-item">
+                                    <div class="bdt-privew-item-tamnail">
+                                        <div>
+                                        <img src="assets/image/img/face10.jpg" alt="">
+                                    </div>
+                                        <div class="bdt-privew-item-content">
+                                            <h4>Marian Garner</h4>
+                                            <p>The meeting is cancelled</p>
+                                        </div>  
+                                    </div>
+                                </li>
+                                <li class="uk-active bdt-sub-item">
+                                    <div class="bdt-privew-item-tamnail">
+                                        <div>
+                                            <img src="assets/image/img/face12.jpg" alt="">
+                                        </div>
+                                        <div class="bdt-privew-item-content">
+                                            <h4>David Grey</h4>
+                                            <p>The meeting is cancelled</p>
+                                        </div>  
+                                    </div>
+                                </li>
+                                <li class="uk-active bdt-sub-item">
+                                    <div class="bdt-privew-item-tamnail">
+                                        <div>
+                                            <img src="assets/image/img/face1.jpg" alt="">
+                                        </div>
+                                        <div class="bdt-privew-item-content">
+                                            <h4>Travis Jenkins</h4>
+                                            <p>The meeting is cancelled</p>
+                                        </div>  
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                <!--=======================================
+                    Header Notification Area End
+                =========================================-->
+
+                <!--=======================================
+                    Header Massage Area Start
+                =========================================-->
+                    <li class="bdt-nav-item-massage">
+                        <a href="#">
+                            <span class="bdt-bell-massage-icon" uk-icon="icon:   mail">
+                                <span class="uk-badge">4</span>
+                            </span>
+                        </a>
+                        <div class="uk-navbar-dropdown bdt-dropdown-menu">
+                            <div class="bdt-dropdown-menu-content">
+                                <span>You have 4 unread mails</span>
+                                <a href="#"> <span class="uk-badge bdt-badge-pill">view all</span></a>
+                            </div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav bdt-sub-menu">
+                                <li class="uk-active bdt-sub-item">
+                                    <div class="bdt-privew-item-tamnail">
+                                        <div>
+                                            <span uk-icon="icon: print"></span>
+                                        </div>
+                                        <div class="bdt-privew-item-content">
+                                            <h4>Application Error</h4>
+                                            <p>Just now</p>
+                                        </div>  
+                                    </div>
+                                </li>
+                                <li class="uk-active bdt-sub-item">
+                                    <div class="bdt-privew-item-tamnail">
+                                        <div>
+                                            <span uk-icon="icon: print"></span>
+                                        </div>
+                                        <div class="bdt-privew-item-content">
+                                            <h4>Application Error</h4>
+                                            <p>Just now</p>
+                                        </div>  
+                                    </div>
+                                </li>
+                                <li class="uk-active bdt-sub-item">  
+                                    <div class="bdt-privew-item-tamnail">
+                                        <div>
+                                            <span uk-icon="icon: cog"></span>
+                                        </div>
+                                        <div class="bdt-privew-item-content">
+                                            <h4>Settings</h4>
+                                            <p>Private message</p>
+                                        </div>  
+                                    </div>
+                                </li>           
+                            </ul>
+                        </div>
+                    </li>
+                <!--=======================================
+                    Header Massage Area End
+                =========================================-->
+
+
+                <!--=======================================
+                    Header Profile Area Start
+                =========================================-->
+                    <li class="bdt-nav-item-profile uk-visible@m">
+                        <a href="#"><span class="uk-margin-small-right">
+                            <img class="bdt-profile-img" src="assets/image/img/face12.jpg" alt=""></span>
+                            <span uk-icon="icon: chevron-down"></span>
+                        </a>
+                        <div class="uk-navbar-dropdown bdt-dropdown-menu">
+                            <div class="bdt-admin-profile-wraper uk-text-center">
+                                <div>
+                                    <img src="assets/image/img/face12.jpg" alt="">
+                                </div>
+                                <div class="bdt-admin-profile-content">
+                                    <h3>Allen Moreno</h3>
+                                    <p>allenmoreno@gmail.com</p>
+                                </div>
+                            </div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav bdt-sub-menu">
+                                <li class="uk-active bdt-sub-item">
+                                    <a href="#"><span class="uk-margin-small-right">
+                                        <span class="bdt-profile-sub-menu"> My Profile</span>
+                                    </span>
+                                    <span class="uk-badge bdt-admin-profile-badge">1</span>
+                                        </a>
+                                </li>
+                                <li class="bdt-sub-item">
+                                    <a href="#"><span class="uk-margin-small-right">
+                                        <span class="bdt-profile-sub-menu"> Messages</span>                         
+                                    </span>
+                                        </a>
+                                </li>
+                                <li class="bdt-sub-item">
+                                    <a href="#"><span class="uk-margin-small-right">
+                                        <span class="bdt-profile-sub-menu"> Activity</span>
+                                    </span>
+                                        </a>
+                                </li>
+                                <li class="bdt-sub-item">
+                                    <a href="#"><span class="uk-margin-small-right">
+                                        <span class="bdt-profile-sub-menu"> FAQ</span>
+                                    </span>
+                                        </a>
+                                </li>
+                                <li class="bdt-sub-item">
+                                    <a href="./pages/login.html">
+                                        <span class="uk-margin-small-right">
+                                            <span class="bdt-profile-sub-menu"> Sign Out</span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                <!--=======================================
+                    Header Profile Area End
+                =========================================-->
+
+
+            <!--=======================================
+                        Header Offcanvas-Button Start
+            =========================================-->
+                    <li class="uk-hidden@m">
+                        <button class="uk-button bdt-offcanvas-button" type="button" uk-toggle="target: #offcanvas-nav-primary"><span uk-icon="icon: menu"></span></button>
+                    </li>
+            <!--=======================================
+                        Header Offcanvas-Button End
+            =========================================-->
+                </ul>
+            </div>
+        <!--=============================================  
+            Header Notification-Massage-Profile Area End
+            =============================================-->
+        </nav>
+      </div>
+    <!--=======================================
+        Header Navbar Area End-
+    =========================================-->
+
+    <!---Page Body Area Start--->
+    <div class="bdt-page-body-wraper uk-flex uk-flex-row">
+
+    <!-- sidebar Start -->
+      <div class="bdt-sidebar-wraper uk-visible@m">
+        <div class="bdt-nav-profile">
+            <a href="#" class="bdt-nav-link-profile">
+                <div class="bdt-profile-image">
+                    <img src="assets/image/img/face8.jpg" alt="profile image">
+                    <div class="bdt-dot-indicator bdt-bg-success"></div>
+                </div>
+                <div class="bdt-text-wrapper">
+                    <p class="bdt-profile-name">Allen Moreno</p>
+                    <p class="bdt-designation">Premium user</p>
+                </div>
+            </a>
+        </div>
+
+        <h3 class="bdt-nav-title">Main Menu</h3>
+
+        <ul class="uk-nav-default uk-nav-parent-icon bdt-sidebar-nav" uk-nav>
+
+            <li class="bdt-nav-item">
+                <a class="bdt-nav-link" href="index.html">   
+                    <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  file-text"></span> 
+                    <span class="bdt-menu-title"> Dashboard</span>
+                </a>
+            </li>
+
+            <li class="uk-parent bdt-nav-item">
+                <a class="bdt-nav-link" href="#">
+                    <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon: table"></span> 
+                    <span class="bdt-menu-title"> Basic UI Elements</span>
+                </a>
+                <ul class="uk-nav-sub bdt-sub-menu">
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/buttons.html">
+                            <span class="bdt-sub-menu-title"> Buttons</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/dropdown-button.html">
+                            <span class="bdt-sub-menu-title">Dropdowns</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/typography.html">
+                            <span class="bdt-sub-menu-title">Typography</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="uk-parent bdt-nav-item">
+                <a class="bdt-nav-link" href="#">
+                    <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  lifesaver"></span> 
+                    <span class="bdt-menu-title"> Base</span>
+                </a>
+                <ul class="uk-nav-sub bdt-sub-menu">
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/accordion.html">
+                            <span class="bdt-sub-menu-title">Accordion</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/alert.html">
+                            <span class="bdt-sub-menu-title">Alert</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/slideshow.html">
+                            <span class="bdt-sub-menu-title">Slideshow</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/model.html">
+                            <span class="bdt-sub-menu-title">Modal</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/toggle.html">
+                            <span class="bdt-sub-menu-title">Toggle</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/tooltip.html">
+                            <span class="bdt-sub-menu-title">Tooltip</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/lightbox.html">
+                            <span class="bdt-sub-menu-title">Lightbox</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/pagination.html">
+                            <span class="bdt-sub-menu-title">Pagination</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/breadcrumb.html">
+                            <span class="bdt-sub-menu-title">Breadcrumb</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/tabs.html">
+                            <span class="bdt-sub-menu-title">Tabs</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/pricing.html">
+                            <span class="bdt-sub-menu-title">Pricing</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/blog.html">
+                            <span class="bdt-sub-menu-title">Blog</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/testimonials.html">
+                            <span class="bdt-sub-menu-title">Testimonials</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/shadow.html">
+                            <span class="bdt-sub-menu-title">Shadow</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/gallery.html">
+                            <span class="bdt-sub-menu-title">Gallery</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/services.html">
+                            <span class="bdt-sub-menu-title">Services</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/avatars.html">
+                            <span class="bdt-sub-menu-title">Avatars</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="bdt-nav-item">
+                <a class="bdt-nav-link" href="pages/form-elements.html">
+                    <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon: calendar"></span> 
+                    <span class="bdt-menu-title"> Form elements</span>
+                </a>
+            </li>
+
+            <li class="bdt-nav-item">
+                <a class="bdt-nav-link" href="pages/chart.html">   
+                    <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  file-pdf"></span> 
+                    <span class="bdt-menu-title"> Charts</span>
+                </a>
+            </li>
+
+            <li class="uk-parent bdt-nav-item">
+                <a class="bdt-nav-link" href="#">
+                    <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  server"></span> 
+                    <span class="bdt-menu-title">Media</span>
+                </a>
+                <ul class="uk-nav-sub bdt-sub-menu">
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/grid.html">
+                            <span class="bdt-sub-menu-title">Grid</span>   
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/tile.html">
+                            <span class="bdt-sub-menu-title">Tile</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/list.html">   
+                            <span class="bdt-sub-menu-title">List</span>
+                        </a>
+                    </li>
+            
+                </ul>
+            </li>
+
+            <li class="bdt-nav-item">
+                <a class="bdt-nav-link" href="pages/tables.html">   
+                    <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  bell"></span> 
+                    <span class="bdt-menu-title"> Tables</span>
+                </a>
+            </li>
+
+            <li class="bdt-nav-item">
+                <a class="bdt-nav-link" href="pages/icons.html">   
+                    <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  database"></span> 
+                    <span class="bdt-menu-title"> Icons</span>
+                </a>
+            </li>
+
+            <li class="bdt-nav-item">
+                <a class="bdt-nav-link" href="pages/e-commerce .html">   
+                    <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  database"></span> 
+                    <span class="bdt-menu-title">E-commerce</span>
+                </a>
+            </li>
+
+            <li class="bdt-nav-item">
+                <a class="bdt-nav-link" href="pages/forum.html">   
+                    <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  question"></span> 
+                    <span class="bdt-menu-title">Forum</span>
+                </a>
+            </li>
+
+            <li class="uk-parent bdt-nav-item">
+                <a class="bdt-nav-link" href="#">
+                    <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  user"></span> 
+                    <span class="bdt-menu-title"> User Pages</span>
+                </a>
+                <ul class="uk-nav-sub bdt-sub-menu">
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/blank-page.html">
+                            <span class="bdt-sub-menu-title"> Blank Page</span>   
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/login.html">
+                            <span class="bdt-sub-menu-title">Login</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/register.html">   
+                            <span class="bdt-sub-menu-title">Register</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="./pages/404.html">
+                            <span class="bdt-sub-menu-title">404</span>
+                        </a>
+                    </li>
+                    <li class="bdt-sub-menu-item">
+                        <a class="bdt-sub-nav-link" href="pages/500.html">               
+                            <span class="bdt-sub-menu-title">500</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+      </div>
+    <!-- sidebar End -->
+
+     <!-- main panel Start -->
+      <div class="bdt-main-panel">
+        <div class="bdt-content-wrapper">
+
+            <!-- Page Title Header Starts-->
+            <div class="bdt-page-header">
+                <div class="uk-width-1-1">
+                    <div class="bdt-quick-link-wrapper">
+                        <h4 class="bdt-page-title">Dashboard</h4>
+                        <ul class="bdt-quick-links1">
+                            <li><a href="#">ICE Market data</a></li>
+                            <li><a href="#">Own analysis</a></li>
+                            <li><a href="#">Historic market data</a></li>
+                        </ul>
+                        <ul class="bdt-quick-links2">
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="#">Analytics</a></li>
+                            <li><a href="#">Watchlist</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Page Title Header End-->
+
+        <!--====================================
+            Dashboard Header Toolbar Area Start
+        ===================================== --> 
+        <div class="bdt-dashboard-header-toolbar uk-margin-top ">
+            <div class="bdt-dashboard-header-toolbar-content" uk-grid>
+                <div class="uk-width-1-1 bdt-flx">
+                    <div>
+                        <div class="uk-button-group bdt-dashboard-header-group-button">
+                            <button class="uk-button bdt-group-button"><span uk-icon="icon:  chevron-left"></span></button>
+                    
+                            <button class="uk-button bdt-group-button">03/02/2019 - 20/08/2019</button>
+                    
+                            <button class="uk-button bdt-group-button"><span uk-icon="icon:  chevron-right"></span></button>
+                    
+                        </div>
+                    </div>
+                    
+                    <div class="bdt-dashboard-filter-wrapper">
+                        <div class="uk-inline bdt-toolbar-button-dropdown">
+                            <div class="bdt-dropdown-button">
+                                <button class="uk-button uk-border-rounded" type="button">All Day
+                                    <a href="" class="uk-margin-small-left" uk-icon="chevron-down"></a></button>
+                                </div>
+                    
+                                <div class="bdt-dashboard-dropdown-menu" uk-dropdown="mode: click">
+                                    <ul class="bdt-dashboard-dropdown-item">
+                                        <li><a href="#">Last Day</a></li>
+                                        <li><a href="#">Last Month</a></li>
+                                        <li><a href="#">Last Year</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bdt-advanced-link">
+                        <a href="#">Advanced Options</a>
+                    </div>
+                    
+                    <div class="bdt-sort-wrapper-button ">
+                        <button class="uk-button uk-button-primary uk-border-rounded">New</button>
+                    </div>
+
+                    <div class="bdt-dashboard-filter-wrapper-style-2">
+                        <div class="uk-inline bdt-toolbar-button-dropdown-style-2">
+                            <div class="bdt-dropdown-button-style-2">
+                                <button class="uk-button uk-border-rounded" type="button">All Day
+                                    <a href="" class="uk-margin-small-left" uk-icon="chevron-down"></a></button>
+                                </div>
+                    
+                                <div class="bdt-dashboard-dropdown-menu-style-2" uk-dropdown="mode: click">
+                                    <ul class="bdt-dashboard-dropdown-item-style-2 uk-text-left">
+                                        <li><a href="#">Last Day</a></li>
+                                        <li><a href="#">Last Month</a></li>
+                                        <li><a href="#">Last Year</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>         
+                </div>
+
+            </div>
+            </div>          
+        <!--====================================
+            Dashboard Header Toolbar Area Start
+        ===================================== --> 
+
+        <!--====================================
+            Dashboard Counter Chart Area Start
+        ===================================== --> 
+                <div class="bdt-card-body-wrapper">
+                <div class="uk-card uk-card-default uk-card-body ">
+
+                    <div class="uk-child-width-1-2@s uk-child-width-1-2@m uk-child-width-1-4@l uk-grid-small uk-text-left " uk-grid>
+                        <div class="bdt-wrapper uk-flex ">
+                            <div class="bdt-content-wrapper">
+                                    <h3>32,451</h3>
+                                    <h5 >Visits</h5>
+                                    <p>+14.00(+0.50%)</p>
+                                </div>
+                                <div class="line-chart"> 
+                                    <canvas id="chart1"></canvas>
+                                </div>
+                        </div>
+
+                        <div class="bdt-wrapper uk-flex ">
+                            <div class="bdt-content-wrapper">
+                                    <h3>15,236</h3>
+                                    <h5>Impressions</h5>
+                                    <p>+138.97(+0.54%)</p>
+                                </div>
+                                <div class="line-chart"> 
+                                <canvas id="chart2"></canvas>
+                            </div>
+                        </div>
+
+                        <div class="bdt-wrapper uk-flex ">
+                            <div class="bdt-content-wrapper">
+                                <h3>7,688</h3>
+                                <h5>Conversation</h5>
+                                <p>+57.62(+0.76%)</p>
+                                </div>
+                                <div class="line-chart"> 
+                                <canvas id="chart3"></canvas>
+                            </div>
+                        </div>
+
+                        <div class="bdt-wrapper uk-flex ">
+                            <div class="bdt-content-wrapper">
+                                <h3>1,553</h3>
+                                <h5>Downloads</h5>
+                                <p>+138.97(+0.54%)</p>
+                                </div>
+                                <div class="line-chart"> 
+                                <canvas id="chart4"></canvas>
+                            </div>
+                        </div>
+
+                </div>
+            </div>  
+        </div>  
+        <!--====================================
+            Dashboard Counter Chart Area End
+        ===================================== --> 
+
+
+        <div class="bdt-chart-area">
+    <!--====================================
+            Dashboard Chart Style-1 Start
+        ===================================== --> 
+            <div class="uk-child-width-1-1 uk-child-width-1-2@l uk-grid-small" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="bdt-chart-card-wrapper">
+                            <div class="bdt-card-header-title">
+                                <h4>Sales Statistics Overview</h4>
+                                <p>Started collecting data from February 2019</p>
+                            </div>
+            
+                                <div class="bdt-data-wrapper uk-flex">
+                                <div class="bdt-data-wrapper-content">
+                                    <h5>Total Cost</h5>
+                                    <div class="bdt-data-content">
+                                        <h4>15,263</h4>
+                                        <p><strong>89.5%</strong> of 20,000 Total</p>
+                                    </div>
+                                </div>
+                                <div class="bdt-data-wrapper-content pt-2">
+                                    <h5>Total Revenue</h5>
+                                    <div class="bdt-data-content">
+                                        <h4>$753,098</h4>
+                                        <p><strong>10.5%</strong>  of 20,000 Total</p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="bdt-line-chart uk-margin-top">
+                                <canvas id="defaultChart" height="276"></canvas>
+                                </div>
+                        </div>
+                    </div>
+                    </div>
+        <!--====================================
+            Dashboard Chart Style-1 End
+        ===================================== -->
+        
+
+        <!--====================================
+            Dashboard Chart Style-2 Start
+        ===================================== --> 
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="bdt-card-header-title">
+                            <h4>Net Profit Margin</h4>
+                            <p>Started collecting data from February 2019</p>
+                        </div>
+                        <div class="bdt-my-chart uk-margin-top">
+                            <canvas id="polarArea"></canvas>
+                            </div>
+                    </div>
+                </div> 
+        <!--====================================
+            Dashboard Chart Style-2 End
+        ===================================== -->                 
+        </div> 
+
+        <!--====================================
+            Dashboard Table Style-3 Start
+        ===================================== --> 
+            <div class="uk-card uk-card-default uk-card-body uk-margin-top">
+                <div class="bdt-card-header-title">
+                    <h4>Table Hover</h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="uk-overflow-auto">
+                    <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">
+                        <thead>
+                            <tr>
+                                <th class="uk-table-shrink"></th>
+                                <th class="uk-table-shrink">Preserve</th>
+                                <th class="uk-table-expand">Expand + Link</th>
+                                <th class="uk-width-small">Truncate</th>
+                                <th class="uk-table-shrink uk-text-nowrap">Shrink + Nowrap</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input class="uk-checkbox" type="checkbox"></td>
+                                <td><img class="uk-preserve-width uk-border-circle" src="assets/image/img/avatar.jpg" width="40" alt=""></td>
+                                <td class="uk-table-link">
+                                    <a class="uk-link-reset" href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
+                                </td>
+                                <td class="uk-text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</td>
+                                <td class="uk-text-nowrap">Lorem ipsum dolor</td>
+                            </tr>
+                            <tr>
+                                <td><input class="uk-checkbox" type="checkbox"></td>
+                                <td><img class="uk-preserve-width uk-border-circle" src="assets/image/img/avatar.jpg" width="40" alt=""></td>
+                                <td class="uk-table-link">
+                                    <a class="uk-link-reset" href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
+                                </td>
+                                <td class="uk-text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</td>
+                                <td class="uk-text-nowrap">Lorem ipsum dolor</td>
+                            </tr>
+                            <tr>
+                                <td><input class="uk-checkbox" type="checkbox"></td>
+                                <td><img class="uk-preserve-width uk-border-circle" src="assets/image/img/avatar.jpg" width="40" alt=""></td>
+                                <td class="uk-table-link">
+                                    <a class="uk-link-reset" href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
+                                </td>
+                                <td class="uk-text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</td>
+                                <td class="uk-text-nowrap">Lorem ipsum dolor</td>
+                            </tr>
+                            <tr>
+                                <td><input class="uk-checkbox" type="checkbox"></td>
+                                <td><img class="uk-preserve-width uk-border-circle" src="assets/image/img/avatar.jpg" width="40" alt=""></td>
+                                <td class="uk-table-link">
+                                    <a class="uk-link-reset" href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</a>
+                                </td>
+                                <td class="uk-text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</td>
+                                <td class="uk-text-nowrap">Lorem ipsum dolor</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        <!--====================================
+            Dashboard Table Style-3 End
+        ===================================== --> 
+
+
+            <div class="uk-child-width-1-1 uk-child-width-1-2@l  uk-grid-small uk-margin-top" uk-grid>
+    <!--====================================
+            Dashboard Chart Style-4 Start
+        ===================================== --> 
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="bdt-header-title">
+                            <h4 class="card-title">Scatter Animated Chart</h4>
+                        </div>
+
+                        <div class="bdt-scatter-chart">
+                            <canvas id="scatterChart1" width="400" height="212"></canvas>
+                        </div>
+                    </div>
+                </div>
+        <!--====================================
+            Dashboard Chart Style-4 End
+        ===================================== --> 
+
+
+        <!--====================================
+            Dashboard From Style-5 Start
+        ===================================== --> 
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="bdt-card-header-title">
+                            <h4>Form</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <form class="uk-form-stacked uk-margin-top">
+                            <div class="uk-margin">
+                                <label class="uk-form-label bdt-from-label" for="form-stacked-text">Email address</label>
+                                <div class="uk-form-controls bdt-from-control">
+                                    <input class="uk-input" id="form-stacked-text" type="text" placeholder="Enter email">
+                                </div>
+                                <label class="uk-form-label bdt-from-label" for="form-stacked-text">Password</label>
+                                <div class="uk-form-controls bdt-from-control">
+                                    <input class="uk-input" id="form-stacked-text" type="password" placeholder="Password">
+                                </div>
+                                
+                                <label class="uk-form-label" for="form-stacked-select">Select</label>
+                                <div class="uk-form-controls">
+                                    <select class="uk-select" id="form-stacked-select">
+                                        <option>Option 01</option>
+                                        <option>Option 02</option>
+                                    </select>
+                                </div>
+
+                                <div class="uk-form-label">Radio</div>
+                                <div class="uk-form-controls">
+                                    <label><input class="uk-radio" type="radio" name="radio1"> Option 01</label><br>
+                                    <label><input class="uk-radio" type="radio" name="radio1"> Option 02</label>
+                                </div>
+                            </div>    
+                                    
+                                <button class="uk-button uk-button-primary bdt-from-button">Submit</button>
+                                <button class="uk-button uk-button-default bdt-from-button">Cancel</button>
+                                                    
+                        </form>
+                    </div>
+                </div>
+        <!--====================================
+            Dashboard From Style-5 End
+        ===================================== --> 
+            </div>
+            
+                <div class="uk-child-width-1-1 uk-child-width-1-2@l uk-grid-small" uk-grid>
+        <!--====================================
+            Dashboard Chart Style-6 Start
+        ===================================== -->   
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="bdt-card-header-title">
+                            <h4>World Map</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="uk-margin-large-top">
+                            <div id="mapchart"></div>
+                        </div>
+                    </div>
+                </div>
+        <!--====================================
+            Dashboard Chart Style-6 End
+        ===================================== --> 
+
+
+        <!--====================================
+            Dashboard Performer Style-7 Start
+        ===================================== --> 
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="bdt-card-header-title bdt-mb">
+                            <h4>Top Performer</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+
+                        <div class="bdt-performer-wrapper uk-flex ">
+                            <img src="assets/image/img/face3.jpg">
+                                <div class="bdt-text-performer">
+                                    <h3>Ray Douglas</h3>
+                                    <p>162543</p>
+                                </div>
+                                <div class="bdt-hours">
+                                    <span>1 Hours ago</span>
+                                </div>
+                            </div>
+
+                        <div class="bdt-performer-wrapper uk-flex">
+                            <img src="assets/image/img/face4.jpg">
+                                <div class="bdt-text-performer">
+                                    <h3>Brian Dean</h3>
+                                    <p>162543</p>
+                                </div>
+                                <div class="bdt-hours">
+                                    <span>4 Hours ago</span>
+                                </div>
+                            </div>
+
+                        <div class="bdt-performer-wrapper uk-flex">
+                            <img src="assets/image/img/face8.jpg">
+                                <div class="bdt-text-performer">
+                                    <h3>Ora Hill</h3>
+                                    <p>162543</p>
+                                </div>
+                                <div class="bdt-hours">
+                                    <span>4 Hours ago</span>
+                                </div>
+                            </div>
+
+                        <div class="bdt-performer-wrapper bdt-brb uk-flex">
+                            <img src="assets/image/img/face12.jpg">
+                                <div class="bdt-text-performer">
+                                    <h3>Olive Bridges</h3>
+                                    <p>162543</p>
+                                </div>
+                                <div class="bdt-hours">
+                                    <span>7 Hours ago</span>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+        <!--====================================
+            Dashboard Performer Style-7 End
+        ===================================== -->
+            </div>    
+            
+            <div class="uk-child-width-1-1 uk-child-width-1-2@l uk-grid-small" uk-grid>
+        <!--====================================
+            Dashboard Progress Style-8 Start
+        ===================================== -->
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="bdt-card-header-title">
+                            <h4>Progress</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div>
+                            <div class="bdt-text-progress uk-flex uk-margin-top">
+                                <div class="bdt-dot-indicator-Progress"></div>
+                                <p>Total Sales</p>
+                            </div>
+                            <div class="bdt-progress-bar">
+                                <h3>$7,590</h3>
+                                <progress id="js-progressbar" class="uk-progress" value="0" max="60"></progress>
+                            </div>
+                            <div class="bdt-text-progress uk-flex uk-margin-top">
+                                <div class="bdt-dot-indicator-Progress2"></div>
+                                <p>Active Users</p>
+                            </div>
+                            <div class="bdt-progress-bar">
+                                <h3>$7,590</h3>
+                                <progress id="js-progressbar2" class="uk-progress" value="0" max="80"></progress>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--====================================
+            Dashboard Progress Style-8 End
+        ===================================== -->
+
+
+        <!--====================================
+            Dashboard Accordion Style-9 Start
+        ===================================== -->
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="bdt-card-header-title">
+                            <h4>Accordion</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    <div class="bdt-accordion-wrapper uk-margin-top">
+                        <ul uk-accordion>
+                            <li class="uk-open">
+                                <a class="uk-accordion-title bdt-accordion-title" href="#">Accordion Item 01</a>
+                                <div class="uk-accordion-content bdt-accordion-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title bdt-accordion-title" href="#">Accordion Item 02</a>
+                                <div class="uk-accordion-content bdt-accordion-content">
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title bdt-accordion-title" href="#">Accordion Item 03</a>
+                                <div class="uk-accordion-content bdt-accordion-content">
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+        <!--====================================
+            Dashboard Accordion Style-9 End
+        ===================================== -->
+            </div>
+
+            <div class="uk-child-width-1-1 uk-child-width-1-2@l uk-grid-small" uk-grid>
+        <!--====================================
+            Dashboard Chart Style-10 Start
+        ===================================== -->
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="bdt-card-header-title">
+                            <h4>Market Overview</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <div class="bdt-line-chart uk-margin-top">
+                            <canvas id="lineChart" width="450" height="430"></canvas>
+                            </div>
+                    </div>
+                </div>
+        <!--====================================
+            Dashboard Chart Style-10 End
+        ===================================== -->
+
+        <!--====================================
+            Dashboard Chart Style-11 Start
+        ===================================== -->
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <div class="bdt-card-header-title">
+                            <h4>Website Audience Metrics
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <div class="bdt-radarr-chart uk-margin-top">
+                            <canvas id="radarChart" width="600" height="370"></canvas>
+                            </div>
+                    </div>
+                </div>
+        <!--====================================
+            Dashboard Chart Style-11 End
+        ===================================== -->
+            </div>
+
+
+        <!--====================================
+            Dashboard Product Sales  Start
+        ===================================== -->
+        <div class="uk-card uk-card-default uk-card-body uk-margin-top">
+            <div class="bdt-product-sales-area">
+                <div class="bdt-card-header-title">
+                    <h4>Recent Sales</h4>
+                </div>
+                
+                <table class="uk-table uk-table-hover uk-table-divider">
+                    <thead>
+                        <tr>
+                            <th class="bdt-product-heading">Product</th> 
+                            <th class="bdt-product-heading uk-visible@s">Customers</th> 
+                            <th class="bdt-product-heading uk-visible@m">Categories</th> 
+                            <th class="bdt-product-heading">Amount</th> 
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="bdt-product-name">iPhone X</td>
+                            <td class="bdt-customers-image-area uk-visible@s">
+                                <div class="bdt-customers-group-image">
+                                    <img src="../Admin-Template/assets/image/img/avatar-s-4.png" alt="">
+                                    <img src="../Admin-Template/assets/image/img/avatar-s-5.png" alt="">
+                                    <img src="../Admin-Template/assets/image/img/avatar-s-6.png" alt="">
+                                </div>
+                            </td>
+                            <td class="bdt-categories-area uk-visible@m">
+                                <div class="bdt-categories-button-style-1">
+                                    <button class="uk-button bdt-button-danger">Mobile</button>
+                                </div>
+                            </td>
+                            <td class="bdt-amount">$ 1200.00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="bdt-product-name">iPad</td>
+                            <td class="bdt-customers-image-area uk-visible@s">
+                                <div class="bdt-customers-group-image">
+                                    <img src="../Admin-Template/assets/image/img/avatar-s-7.png" alt="">
+                                    <img src="../Admin-Template/assets/image/img/avatar-s-8.png" alt="">
+                                </div>
+                            </td>
+                            <td class="bdt-categories-area uk-visible@m">
+                                <div class="bdt-categories-button-style-2">
+                                    <button class="uk-button bdt-button-primary">Tablet</button>
+                                </div>
+                            </td>
+                            <td class="bdt-amount">$ 1190.00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="bdt-product-name">OnePlus</td>
+                            <td class="bdt-customers-image-area uk-visible@s">
+                                <div class="bdt-customers-group-image">
+                                    <img src="../Admin-Template/assets/image/img/avatar-s-1.png" alt="">
+                                    <img src="../Admin-Template/assets/image/img/avatar-s-2.png" alt="">
+                                    <img src="../Admin-Template/assets/image/img/avatar-s-3.png" alt="">
+                                </div>
+                            </td>
+                            <td class="bdt-categories-area uk-visible@m">
+                                <div class="bdt-categories-button-style-1">
+                                    <button class="uk-button bdt-button-danger">Mobile</button>
+                                </div>
+                            </td>
+                            <td class="bdt-amount">$ 999.00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="bdt-product-name">ZenPad</td>
+                            <td class="bdt-customers-image-area uk-visible@s">
+                                <div class="bdt-customers-group-image">
+                                    <img src="../Admin-Template/assets/image/img/avatar-s-11.png" alt="">
+                                    <img src="../Admin-Template/assets/image/img/avatar-s-12.png" alt="">
+                                </div>
+                            </td>
+                            <td class="bdt-categories-area uk-visible@m">
+                                <div class="bdt-categories-button-style-2">
+                                    <button class="uk-button bdt-button-primary">Tablet</button>
+                                </div>
+                            </td>
+                            <td class="bdt-amount">$ 1150.00</td>
+                        </tr>
+
+                        <tr>
+                            <td class="bdt-product-name">Pixel 2</td>
+                            <td class="bdt-customers-image-area uk-visible@s">
+                                <div class="bdt-customers-group-image">
+                                    <img src="../Admin-Template/assets/image/img/avatar-s-4.png" alt="">
+                                    <img src="../Admin-Template/assets/image/img/avatar-s-6.png" alt="">
+                                    <img src="../Admin-Template/assets/image/img/avatar-s-1.png" alt="">
+                                </div>
+                            </td>
+                            <td class="bdt-categories-area uk-visible@m">
+                                <div class="bdt-categories-button-style-1">
+                                    <button class="uk-button bdt-button-danger">Mobile</button>
+                                </div>
+                            </td>
+                            <td class="bdt-amount">$ 1180.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+        <!--====================================
+            Dashboard Product Sales  End
+        ===================================== -->
+
+
+        <!--==============================================
+            Dashboard Messages Tweets News Feed Start
+        ================================================ -->
+            <div class="bdt-dashboard-messages-follow-news-feed-wrapper uk-margin-top">
+                <div class="uk-child-width-1-2@m uk-child-width-1-3@l uk-grid-small" uk-grid>
+
+               <!--==================================
+                    Dashboard Messages Start
+                =====================================-->
+                    <div>
+                        <div class="bdt-dashboard-messages-wrapper">
+                            <div class="bdt-card-header-title">
+                                <h4>MESSAGES</h4>
+                            </div>
+                                <div class="uk-margin-top">
+                                    <div class="bdt-dashboard-messages">
+                                        <div class="bdt-messages-image">
+                                            <a href="#"><img src="assets/image/img/message-img-1.jpg" alt=""></a>
+                                        </div>
+            
+                                        <div class="bdt-messages-content uk-margin-left">
+                                            <a href="#">Amanda Alvarez </a>
+                                            <p> Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="bdt-dashboard-messages">
+                                        <div class="bdt-messages-image">
+                                            <a href="#"><img src="assets/image/img/message-img-2.jpg" alt=""></a>
+                                        </div>
+            
+                                        <div class="bdt-messages-content uk-margin-left">
+                                            <a href="#">Debra Kelly</a>
+                                            <p> Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                        </div>      
+                                    </div>
+        
+                                    <div class="bdt-dashboard-messages">
+                                        <div class="bdt-messages-image">
+                                            <a href="#"><img src="assets/image/img/message-img-3.jpg" alt=""></a>
+                                        </div>
+            
+                                        <div class="bdt-messages-content uk-margin-left">
+                                            <a href="#">Walter Ryan</a>
+                                            <p> Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                        </div>      
+                                    </div>
+                                </div>
+
+
+                        </div>
+                    </div>
+               <!--===================================
+                    Dashboard Messages End
+                ======================================-->
+
+
+               <!--=====================================
+                    Dashboard Tweets Start
+                ========================================-->
+
+                <div>
+                    <div class="bdt-dashboard-tweets-wrapper">
+                        <div class="dashboard-tweets-haeder-title">
+                            <h4>TWEETS</h4>
+                        </div>
+                        <div class="uk-margin-top">
+                            <div class="bdt-dashboard-tweets">
+                                <div class="bdt-tweets-content">
+                                    <p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+                                </div>
+
+                                <div class="bdt-tweets-icon-wrapper">
+                                    <div class="bdt-tweets-icon" >
+                                        <a href="#" uk-icon="icon: heart"></a>
+                                        <a href="#" class=" uk-margin-small-left" uk-icon="icon: social"></a>
+                                        
+                                    </div>
+                                        <div>
+                                            <small>3m</small>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="bdt-dashboard-tweets">
+                                <div class="bdt-tweets-content">
+                                    <p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+                                </div>
+
+                                <div class="bdt-tweets-icon-wrapper">
+                                    <div class="bdt-tweets-icon" >
+                                        <a href="#" uk-icon="icon: heart"></a>
+                                        <a href="#" class=" uk-margin-small-left" uk-icon="icon: social"></a>
+                                        
+                                    </div>
+                                        <div>
+                                            <small>3m</small>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="bdt-dashboard-tweets">
+                                <div class="bdt-tweets-content">
+                                    <p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+                                </div>
+
+                                <div class="bdt-tweets-icon-wrapper">
+                                    <div class="bdt-tweets-icon" >
+                                        <a href="#" uk-icon="icon: heart"></a>
+                                        <a href="#" class=" uk-margin-small-left" uk-icon="icon: social"></a>
+                                        
+                                    </div>
+                                        <div>
+                                            <small>3m</small>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                       </div>
+                </div>
+               <!--=====================================
+                    Dashboard Tweets End
+                ========================================-->
+
+                <!--==================================
+                    Dashboard News Feed Start
+                =====================================-->
+                <div>
+                    <div class="bdt-dashboard-news-feed-wrapper">
+                        <div class="bdt-card-header-title">
+                            <h4>NEWS FEED</h4>
+                        </div>
+                            <div class="uk-margin-top">
+                                <div class="bdt-dashboard-news-feed">
+                                    <div class="bdt-news-feed-image">
+                                        <a href="#"><img src="assets/image/img/news1.jpg" alt=""></a>
+                                    </div>
+        
+                                    <div class="bdt-news-feed-content uk-margin-left">
+                                        <p> Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                        <small>Yesterday</small>
+                                    </div>
+                                </div>
+
+                                <div class="bdt-dashboard-news-feed">
+                                    <div class="bdt-news-feed-image">
+                                        <a href="#"><img src="assets/image/img/news2.jpg" alt=""></a>
+                                    </div>
+        
+                                    <div class="bdt-news-feed-content uk-margin-left">
+                                        <p> Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                        <small>Yesterday</small>
+                                    </div>      
+                                </div>
+    
+                                <div class="bdt-dashboard-news-feed">
+                                    <div class="bdt-news-feed-image">
+                                        <a href="#"><img src="assets/image/img/news3.jpg" alt=""></a>
+                                    </div>
+        
+                                    <div class="bdt-news-feed-content uk-margin-left">
+                                        <p> Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                        <small>Yesterday</small>
+                                    </div>      
+                                </div>
+                            </div>
+
+
+                    </div>
+                </div>
+           <!--===================================
+                Dashboard News Feed End
+            ======================================-->
+
+                </div>
+            </div>
+
+        <!--==============================================
+            Dashboard Meassage Follow News Feed End
+        ================================================ -->
+
+        </div>
+    </div>
+
+    <!--Footer Area Start-->
+    <footer class="bdt-footer">
+        <div class="bdt-footer-area-wrapper">
+                <div class="bdt-footer-copyright">
+                    <span>Copyright © 2019 <a href="https://getuikit.com/">Uikit</a>. All rights reserved.</span>
+                </div>
+
+                <div class="bdt-copyright-icon">
+                    <span>Hand-crafted & made with<span uk-icon="heart"></span>
+                </div>
+        </div>
+    </footer>            
+    <!--Footer Area End-->
+
+      </div>
+     <!-- main panel End -->
+
+    </div>
+    <!---Page Body Area End--->
+
+
+    <!---Offcanvas Start--->
+        <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+                <!-- sidebar Start -->
+                <div class="bdt-sidebar-wraper">
+                    <div class="bdt-nav-profile">
+                        <a href="#" class="bdt-nav-link-profile">
+                            <div class="bdt-profile-image">
+                                <img src="assets/image/img/face8.jpg" alt="profile image">
+                                <div class="bdt-dot-indicator bdt-bg-success"></div>
+                            </div>
+                            <div class="bdt-text-wrapper">
+                                <p class="bdt-profile-name">Allen Moreno</p>
+                                <p class="bdt-designation">Premium user</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <h3 class="bdt-nav-title">Main Menu</h3>
+
+                    <ul class="uk-nav-default uk-nav-parent-icon bdt-sidebar-nav" uk-nav>
+
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="index.html">   
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  file-text"></span> 
+                                <span class="bdt-menu-title"> Dashboard</span>
+                            </a>
+                        </li>
+
+                        <li class="uk-parent bdt-nav-item">
+                            <a class="bdt-nav-link" href="#">
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon: table"></span> 
+                                <span class="bdt-menu-title"> Basic UI Elements</span>
+                            </a>
+                            <ul class="uk-nav-sub bdt-sub-menu">
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/buttons.html">
+                                        <span class="bdt-sub-menu-title"> Buttons</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/dropdown-button.html">
+                                        <span class="bdt-sub-menu-title">Dropdowns</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/typography.html">
+                                        <span class="bdt-sub-menu-title">Typography</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="uk-parent bdt-nav-item">
+                            <a class="bdt-nav-link" href="#">
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  lifesaver"></span> 
+                                <span class="bdt-menu-title"> Base</span>
+                            </a>
+                            <ul class="uk-nav-sub bdt-sub-menu">
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/accordion.html">
+                                        <span class="bdt-sub-menu-title">Accordion</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/alert.html">
+                                        <span class="bdt-sub-menu-title">Alert</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/slideshow.html">
+                                        <span class="bdt-sub-menu-title">Slideshow</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/model.html">
+                                        <span class="bdt-sub-menu-title">Modal</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/toggle.html">
+                                        <span class="bdt-sub-menu-title">Toggle</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/tooltip.html">
+                                        <span class="bdt-sub-menu-title">Tooltip</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/lightbox.html">
+                                        <span class="bdt-sub-menu-title">Lightbox</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/pagination.html">
+                                        <span class="bdt-sub-menu-title">Pagination</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/breadcrumb.html">
+                                        <span class="bdt-sub-menu-title">Breadcrumb</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/tabs.html">
+                                        <span class="bdt-sub-menu-title">Tabs</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/pricing.html">
+                                        <span class="bdt-sub-menu-title">Pricing</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/blog.html">
+                                        <span class="bdt-sub-menu-title">Blog</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/testimonials.html">
+                                        <span class="bdt-sub-menu-title">Testimonials</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/shadow.html">
+                                        <span class="bdt-sub-menu-title">Shadow</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/gallery.html">
+                                        <span class="bdt-sub-menu-title">Gallery</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/services.html">
+                                        <span class="bdt-sub-menu-title">Services</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/avatars.html">
+                                        <span class="bdt-sub-menu-title">Avatars</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="pages/form-elements.html">
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon: calendar"></span> 
+                                <span class="bdt-menu-title"> Form elements</span>
+                            </a>
+                        </li>
+
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="pages/chart.html">   
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  file-pdf"></span> 
+                                <span class="bdt-menu-title"> Charts</span>
+                            </a>
+                        </li>
+
+                        <li class="uk-parent bdt-nav-item">
+                            <a class="bdt-nav-link" href="#">
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  server"></span> 
+                                <span class="bdt-menu-title">Media</span>
+                            </a>
+                            <ul class="uk-nav-sub bdt-sub-menu">
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/grid.html">
+                                        <span class="bdt-sub-menu-title">Grid</span>   
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/tile.html">
+                                        <span class="bdt-sub-menu-title">Tile</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/list.html">   
+                                        <span class="bdt-sub-menu-title">List</span>
+                                    </a>
+                                </li>
+                        
+                            </ul>
+                        </li>
+
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="pages/tables.html">   
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  bell"></span> 
+                                <span class="bdt-menu-title"> Tables</span>
+                            </a>
+                        </li>
+
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="pages/icons.html">   
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  database"></span> 
+                                <span class="bdt-menu-title"> Icons</span>
+                            </a>
+                        </li>
+
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="pages/e-commerce .html">   
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  database"></span> 
+                                <span class="bdt-menu-title">E-commerce</span>
+                            </a>
+                        </li>
+
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="pages/forum.html">   
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  question"></span> 
+                                <span class="bdt-menu-title">Forum</span>
+                            </a>
+                        </li>
+
+                        <li class="uk-parent bdt-nav-item">
+                            <a class="bdt-nav-link" href="#">
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  user"></span> 
+                                <span class="bdt-menu-title"> User Pages</span>
+                            </a>
+                            <ul class="uk-nav-sub bdt-sub-menu">
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/blank-page.html">
+                                        <span class="bdt-sub-menu-title"> Blank Page</span>   
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/login.html">
+                                        <span class="bdt-sub-menu-title">Login</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/register.html">   
+                                        <span class="bdt-sub-menu-title">Register</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/404.html">
+                                        <span class="bdt-sub-menu-title">404</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="pages/500.html">               
+                                        <span class="bdt-sub-menu-title">500</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- sidebar End -->
+
+            </div>
+       </div>
+    <!---Offcanvas End--->
+
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/uikit.min.js"></script>
+    <script src="assets/js/uikit-icons.min.js"></script>
+    <script src="assets/js/core.js"></script>
+    <script src="assets/js/maps.js"></script>
+    <script src="assets/js/worldLow.js"></script>
+    <script src="assets/js/Chart.min.js"></script>
+    <script src="assets/js/chart.js"></script>
+    <script src="assets/js/dashbord.js"></script>
+    
+
+</body>
+</html>

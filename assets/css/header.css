@@ -1,0 +1,339 @@
+/* ===================================================
+    Header Area Css Start
+====================================================== */
+
+.bdt-header-navbar-wraper .bdt-navbar {
+    background: #fff;
+    margin: 0;
+    box-shadow: 0 4px 16px 0 rgba(167, 175, 183, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+}
+
+/* ===================================================
+    Header Logo Css Start
+====================================================== */
+
+.bdt-header-navbar-wraper .uk-navbar-nav > li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bdt-header-navbar-wraper li.bdt-navbar-brand-logo-wraper {
+    background: #1c45ef;
+    width: 100px;
+}
+
+/* ===================================================
+    Header Logo Css End
+====================================================== */
+
+
+/* ===================================================
+    Header Help Number Css Start
+====================================================== */
+
+.bdt-header-navbar-wraper .bdt-help-number {
+	color: #000;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 0 20px;
+}
+
+/* ===================================================
+    Header Help Number Css End
+====================================================== */
+
+/* ===================================================
+    Header language Css Start
+====================================================== */
+
+.bdt-header-navbar-wraper .bdt-language-wrapper .bdt-selected-language {
+	font-weight: 600;
+	font-size: 15px;
+	text-transform: capitalize;
+	color: #000000c9;
+	padding-left: 7px;
+}
+
+/* ===================================================
+    Header language Dropdown Css Start
+====================================================== */
+.bdt-header-navbar-wraper .bdt-language-wrapper .bdt-dropdown-menu-wrapper {
+	padding: 0;
+}
+
+.bdt-header-navbar-wraper .bdt-language-wrapper .bdt-dropdown-menu-wrapper .bdt-sub-item {
+	padding: 5px 15px;
+	transition: all .3s ease;
+}
+
+.bdt-header-navbar-wraper .bdt-language-wrapper .bdt-dropdown-menu-wrapper .bdt-sub-item:hover {
+	background: #e5e5e5;
+}
+
+.bdt-header-navbar-wraper .bdt-language-wrapper .bdt-language-icon {
+	width: 25px;
+}
+
+.bdt-header-navbar-wraper .bdt-language-wrapper .bdt-language-name {
+	color: #000;
+	font-size: 14px;
+}
+/* ===================================================
+    Header language Dropdown Css End
+====================================================== */
+
+/* ===================================================
+    Header language Css End
+====================================================== */
+
+
+/* ===================================================
+    Header Search Css Start
+====================================================== */
+
+.bdt-header-navbar-wraper .bdt-search-from {
+    width: 626px;
+}
+
+
+.bdt-header-navbar-wraper .bdt-search-from .bdt-search-input {
+	font-size: 14px;
+	padding: 0 15px;
+}
+
+.bdt-header-navbar-wraper .uk-navbar-center:not(:only-child) {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    width: max-content;
+    box-sizing: border-box;
+    z-index: 990;
+}
+
+
+/* ===================================================
+    Header Search Css End
+====================================================== */
+
+
+/* ===================================================
+    Header Notification-Massage Css Start
+====================================================== */
+
+.bdt-header-navbar-wraper .bdt-nav-item-notification .bdt-bell-massage-icon, 
+.bdt-header-navbar-wraper .bdt-nav-item-massage .bdt-bell-massage-icon {
+    position: relative;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-notification .bdt-bell-massage-icon .uk-badge, 
+.bdt-header-navbar-wraper .bdt-nav-item-massage .bdt-bell-massage-icon .uk-badge {
+	font-size: 12px;
+	height: 18px;
+	min-width: 18px;
+	line-height: 18px;
+	position: absolute;
+	top: -10px;
+    right: -6px;
+    z-index: 1;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-massage .bdt-dropdown-menu,
+.bdt-header-navbar-wraper .bdt-nav-item-notification .bdt-dropdown-menu {
+	padding: 0px;
+	width: 270px;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-massage .bdt-dropdown-menu-content,
+.bdt-header-navbar-wraper .bdt-nav-item-notification .bdt-dropdown-menu-content {
+	padding: 10px 0px;
+	border-bottom: 1px solid #ebebeb;
+}
+.bdt-dropdown-menu-content a:hover {
+    text-decoration: none;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-massage .bdt-dropdown-menu-content span,
+.bdt-header-navbar-wraper .bdt-nav-item-notification .bdt-dropdown-menu-content span {
+	font-size: 14px;
+	color: #000;
+	font-weight: 500;
+	padding-left: 20px;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-massage .bdt-dropdown-menu-content .bdt-badge-pill,
+.bdt-header-navbar-wraper .bdt-nav-item-notification .bdt-dropdown-menu-content .bdt-badge-pill {
+	font-size: 12px;
+	color: #fff;
+	width: 55px;
+	height: 20px;
+	margin-left: 10px;
+	padding-left: 4px;
+	border-radius: 2px;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-massage .uk-navbar-dropdown-nav .bdt-sub-item,
+.bdt-header-navbar-wraper .bdt-nav-item-notification .uk-navbar-dropdown-nav .bdt-sub-item {
+	padding-left: 15px;
+	padding-top: 10px;
+    border-bottom: 1px solid #ebebeb;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-massage .uk-navbar-dropdown-nav .bdt-sub-item:hover,
+.bdt-header-navbar-wraper .bdt-nav-item-notification .uk-navbar-dropdown-nav .bdt-sub-item:hover {
+	background: #ebebeb;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-massage .uk-navbar-dropdown-nav .bdt-privew-item-tamnail,
+.bdt-header-navbar-wraper .bdt-nav-item-notification .uk-navbar-dropdown-nav .bdt-privew-item-tamnail {
+	display: flex;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-massage .uk-navbar-dropdown-nav .bdt-privew-item-tamnail img,
+.bdt-header-navbar-wraper .bdt-nav-item-notification .uk-navbar-dropdown-nav .bdt-privew-item-tamnail img {
+	width: 44px;
+	height: 44px;
+	border-radius: 100%;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-massage .uk-navbar-dropdown-nav .bdt-privew-item-tamnail svg,
+.bdt-header-navbar-wraper .bdt-nav-item-notification .uk-navbar-dropdown-nav .bdt-privew-item-tamnail svg {
+	width: 30px;
+	color: #1e87f0;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-massage .uk-navbar-dropdown-nav .bdt-privew-item-tamnail .bdt-privew-item-content,
+.bdt-header-navbar-wraper .bdt-nav-item-notification .uk-navbar-dropdown-nav .bdt-privew-item-tamnail .bdt-privew-item-content {
+	padding-left: 15px;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-massage .uk-navbar-dropdown-nav .bdt-privew-item-tamnail .bdt-privew-item-content h4,
+.bdt-header-navbar-wraper .bdt-nav-item-notification .uk-navbar-dropdown-nav .bdt-privew-item-tamnail .bdt-privew-item-content h4 {
+	font-size: 16px;
+	font-weight: 500;
+	margin: 0;
+	line-height: 14px;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-massage .uk-navbar-dropdown-nav .bdt-privew-item-tamnail .bdt-privew-item-content p,
+.bdt-header-navbar-wraper .bdt-nav-item-notification .uk-navbar-dropdown-nav .bdt-privew-item-tamnail .bdt-privew-item-content p {
+	margin: 0;
+	padding: 0;
+	line-height: 38px;
+	font-size: 13px;
+}
+.bdt-header-navbar-wraper .bdt-nav-item-massage .bdt-bell-massage-icon .uk-badge {
+	background: #f00;
+}
+
+/* ===================================================
+    Header Notification-Massage Css End
+====================================================== */
+
+/* ===================================================
+    Header Profile Css Start
+====================================================== */
+
+.bdt-header-navbar-wraper .bdt-nav-item-profile .bdt-profile-img {
+	width: 32px;
+	border-radius: 100%;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-profile .uk-navbar-dropdown {
+	width: 270px;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-profile .bdt-admin-profile-wraper img {
+	width: 60px;
+	border-radius: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-profile .bdt-admin-profile-wraper .bdt-admin-profile-content h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: 700;
+	color: #290202d6;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-profile .bdt-admin-profile-wraper .bdt-admin-profile-content p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-profile .bdt-sub-item {
+    padding: 6px 30px;
+    transition: .3s;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-profile .bdt-sub-item .bdt-profile-sub-menu {
+	color: #000;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-profile .bdt-sub-item .bdt-admin-profile-badge {
+	background: #f00;
+	width: 10px;
+	height: 14px;
+	font-size: 12px;
+}
+
+.bdt-header-navbar-wraper .bdt-nav-item-profile .bdt-sub-item:hover {
+	background: #ebebeb;
+}
+
+
+.bdt-nav-item-profile .uk-navbar-dropdown {
+
+    padding: 0px;
+ 
+}
+
+/* ===================================================
+    Header Profile Css End
+====================================================== */
+
+.bdt-header-navbar-wraper .bdt-offcanvas-button {
+    background: transparent;
+    margin: 0;
+}
+
+/* ===================================================
+    Header Area Css Start
+====================================================== */
+
+
+
+
+
+/* ======================================================
+    Responsive Area Start
+====================================================== */
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (min-width: 960px) {
+   
+	.bdt-header-navbar-wraper li.bdt-navbar-brand-logo-wraper {
+        width: 270px;
+	}
+	
+}
+
+@media only screen and (min-width: 640px) {
+  
+
+}
+/* ======================================================
+    Responsive Area End
+====================================================== */

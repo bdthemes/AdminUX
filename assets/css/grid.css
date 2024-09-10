@@ -1,0 +1,21 @@
+/* ================================================
+    Media Grid Area Start
+================================================ */
+
+.bdt-media-grid-wrapper .bdt-media-grid-header-title h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.bdt-media-grid-wrapper .bdt-media-grid .bdt-media-title h3 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #040000d4;
+}
+
+
+/* ================================================
+    Media Grid Area End
+================================================ */

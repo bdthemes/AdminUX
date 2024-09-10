@@ -1,0 +1,575 @@
+
+/* ================================================
+     Button Area CSS Start
+================================================ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bdt-button-header-content .card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    font-family: roboto;
+    margin: 0;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.uk-button-succsess {
+    background-color: #14aa75;
+    color: #fff;
+    border: 1px solid #14aa75;
+}
+
+
+ .uk-button-succsess:hover {
+    background: #077750db;
+}
+ .uk-button-warning {
+    color: #fff;
+    background-color: #cc8c00;
+    border: 1px solid #cc8c00;
+}
+
+ .uk-button-warning:hover{
+    background-color: #d99500;
+}
+.uk-button-info{
+    color: #fff;
+    background-color: #6837d8c7;
+    border-color: #602dd5;
+}
+.uk-button-info:hover{
+    background-color: #602dd5;
+}
+
+
+/* ================================================
+     Button Style-1 CSS Start
+================================================ */
+
+.bdt-button-style1-wrapper .bdt-style1-button {
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+
+
+/* ================================================
+     Button Style-1 CSS End
+================================================ */
+
+
+/* ================================================
+     Button Style-2 CSS Start
+================================================ */
+
+
+ .bdt-button-style2-wrapper .bdt-template-demo-cercel-button {
+    margin-bottom: 20px;
+}
+ .bdt-button-style2-wrapper .bdt-template-demo-cercel-button button.uk-button {
+
+    padding: 0px 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+ .bdt-button-style2-wrapper .bdt-template-demo-cercel-button button svg {
+    width: 18px;
+}
+
+
+ .bdt-button-style2-wrapper .bdt-template-demo-radius-button button.uk-button {
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+ .bdt-button-style2-wrapper .bdt-template-demo-radius-button button svg {
+    width: 18px;
+}
+
+/* ================================================
+     Button Style-2 CSS End
+================================================ */
+
+
+/* ================================================
+     Button Style-3 CSS Start
+================================================ */
+
+ .bdt-style3-button-hover button {
+    padding: 2px 38px;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    border-radius: 3px;
+    background: transparent;
+    color: #000;
+}
+
+ .bdt-style3-button-hover .uk-button-primary {
+    border: 1px solid #1e87f0;
+}
+
+ .bdt-style3-button-hover .uk-button-secondary {
+    border: 1px solid #000;
+}
+
+ .bdt-style3-button-hover .uk-button-danger {
+    border: 1px solid #f0506e;
+}
+
+ .bdt-style3-button-hover .uk-button.uk-button-info {
+    border: 1px solid #8963e1;
+}
+.bdt-style3-button-hover .uk-button.uk-button-info:hover{
+   color: #fff;
+}
+
+ .bdt-style3-button-hover .uk-button-warning:hover{
+    color: #fff;
+}
+ .bdt-style3-button-hover .uk-button-succsess:hover{
+    color: #fff;
+}
+
+/* ================================================
+     Button Style-3 CSS End
+================================================ */
+
+
+/* ================================================
+     Button Style-4 CSS Start
+================================================ */
+
+.bdt-button-style4-cercel button{
+    padding: 0px 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+.bdt-button-style4-cercel svg, 
+.bdt-button-style4-radius svg {
+   width: 18px;
+}
+
+.bdt-button-style4-radius button{
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.bdt-button-style4-cercel button ,
+.bdt-button-style4-radius button{
+    background: transparent;
+    color: #000;
+}
+
+.bdt-button-style4-cercel .uk-button-primary ,
+.bdt-button-style4-radius .uk-button-primary {
+    border: 1px solid #1e87f0;
+}
+.bdt-button-style4-cercel .uk-button-secondary ,
+.bdt-button-style4-radius .uk-button-secondary{
+    border: 1px solid #000;
+}
+.bdt-button-style4-cercel .uk-button-danger ,
+.bdt-button-style4-radius .uk-button-danger  {
+    border: 1px solid #f0506e;
+}
+.bdt-button-style4-cercel .uk-button-succsess:hover ,
+.bdt-button-style4-radius .uk-button-succsess:hover   {
+    color: #fff;
+}
+.bdt-button-style4-cercel .uk-button-warning:hover ,
+.bdt-button-style4-radius .uk-button-warning:hover {
+    color: #fff;
+}
+
+/* ================================================
+     Button Style-4 CSS End
+================================================ */
+
+
+/* ================================================
+     Button Style-5 CSS Start
+================================================ */
+
+.bdt-button-style5-wrapper .bdt-style5-button .uk-button-primary {
+    background-color: #1e87f057;
+    color: #0080ff;
+    border: 1px solid transparent;
+}
+.bdt-button-style5-wrapper .bdt-style5-button .uk-button-primary:hover {
+    background-color: #0080ff;
+    color: #fff;
+}
+
+.bdt-button-style5-wrapper .bdt-style5-button .uk-button-secondary {
+    background-color: #22222294;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.bdt-button-style5-wrapper .bdt-style5-button .uk-button-secondary:hover {
+    background-color: #000;
+    color: #fff;
+}
+.bdt-button-style5-wrapper .bdt-style5-button .uk-button-succsess {
+    background-color: #14aa757d;
+    color: #017b50;
+    border: none;
+}
+.bdt-button-style5-wrapper .bdt-style5-button .uk-button-succsess:hover {
+    background: #14aa75;
+    color: #fff;
+}
+
+.bdt-button-style5-wrapper .bdt-style5-button .uk-button-danger {
+    background-color: #f9668161;
+    color: #de4747;
+    border: none;
+}
+
+.bdt-button-style5-wrapper .bdt-style5-button .uk-button-danger:hover {
+    background-color: #ee395b;
+    color: #fff;
+}
+
+.bdt-button-style5-wrapper .bdt-style5-button .uk-button-warning {
+    color: #c58906;
+    background-color: #cc8c0096;
+    border: none;
+}
+.bdt-button-style5-wrapper .bdt-style5-button .uk-button-warning:hover {
+    color: #fff;
+    background-color: #cc8c00;
+}
+.bdt-button-style5-wrapper .bdt-style5-button .uk-button-info {
+    color: #4e23af;
+    background-color: #6837d870;
+    border: none;
+}
+.bdt-button-style5-wrapper .bdt-style5-button .uk-button-info:hover {
+    color: #fff;
+    background-color: #6837d8;
+}
+
+/* ================================================
+     Button Style-5 CSS End
+================================================ */
+
+
+/* ================================================
+     Button Style-6 CSS Start
+================================================ */
+
+.bdt-button-style6-wrapper .bdt-button-style6 button {
+    border-radius: 3px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+/* ================================================
+     Button Style-6 CSS End
+================================================ */
+
+
+/* ================================================
+     Button Style-7 CSS Start
+================================================ */
+
+.bdt-button-style7-wrapper .bdt-style7-button button {
+    border-radius: 30px;
+ }
+
+/* ================================================
+     Button Style-7 CSS End
+================================================ */
+
+
+/* ================================================
+     Button Style-8 CSS Start
+================================================ */
+.bdt-button-style8-wrapper .bdt-style8-button button {
+    border-radius: 30px;
+ }
+
+ .bdt-style8-button button {
+    padding: 2px 38px;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    border-radius: 3px;
+    background: transparent;
+    color: #000;
+}
+
+ .bdt-style8-button .uk-button-primary {
+    border: 1px solid #1e87f0;
+}
+
+ .bdt-style8-button .uk-button-secondary {
+    border: 1px solid #000;
+}
+
+ .bdt-style8-button .uk-button-danger {
+    border: 1px solid #f0506e;
+}
+
+ .bdt-style8-button .uk-button.uk-button-info {
+    border: 1px solid #8963e1;
+}
+.bdt-style8-button .uk-button.uk-button-info:hover{
+   color: #fff;
+}
+
+
+ .bdt-style8-button .uk-button-warning:hover{
+    color: #fff;
+}
+ .bdt-style8-button .uk-button-succsess:hover{
+    color: #fff;
+}
+
+
+
+/* ================================================
+     Button Style-8 CSS End
+================================================ */
+
+
+/* ================================================
+     Button Style-9 CSS Start
+================================================ */
+
+.bdt-button-style9-wrapper .bdt-style9-button .uk-button-primary {
+    background-color: #1e97f057;
+    color: #0090ff;
+    border: 1px solid transparent;
+}
+.bdt-button-style9-wrapper .bdt-style9-button .uk-button-primary:hover {
+    background-color: #0090ff;
+    color: #fff;
+}
+
+.bdt-button-style9-wrapper .bdt-style9-button .uk-button-secondary {
+    background-color: #22222294;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.bdt-button-style9-wrapper .bdt-style9-button .uk-button-secondary:hover {
+    background-color: #000;
+    color: #fff;
+}
+.bdt-button-style9-wrapper .bdt-style9-button .uk-button-succsess {
+    background-color: #14aa757d;
+    color: #017b50;
+    border: none;
+}
+.bdt-button-style9-wrapper .bdt-style9-button .uk-button-succsess:hover {
+    background: #14aa75;
+    color: #fff;
+}
+
+.bdt-button-style9-wrapper .bdt-style9-button .uk-button-danger {
+    background-color: #f9669161;
+    color: #de4747;
+    border: none;
+}
+
+.bdt-button-style9-wrapper .bdt-style9-button .uk-button-danger:hover {
+    background-color: #ee395b;
+    color: #fff;
+}
+
+.bdt-button-style9-wrapper .bdt-style9-button .uk-button-warning {
+    color: #c58906;
+    background-color: #cc8c0096;
+    border: none;
+}
+.bdt-button-style9-wrapper .bdt-style9-button .uk-button-warning:hover {
+    color: #fff;
+    background-color: #cc8c00;
+}
+.bdt-button-style9-wrapper .bdt-style9-button .uk-button-info {
+    color: #4e23af;
+    background-color: #6837d870;
+    border: none;
+}
+.bdt-button-style9-wrapper .bdt-style9-button .uk-button-info:hover {
+    color: #fff;
+    background-color: #6837d8;
+}
+
+
+/* ================================================
+     Button Style-9 CSS End
+================================================ */
+
+
+/* ================================================
+     Button Style-12 CSS Start
+================================================ */
+
+
+.bdt-button-style12-wrapper .bdt-style12-button span {
+    margin-right: 6px;
+}
+
+/* ================================================
+     Button Style-12 CSS End
+================================================ */
+
+
+/* ================================================
+     Button Style-13 CSS Start
+================================================ */
+
+
+.bdt-button-style13-wrapper .bdt-style13-button span {
+    margin-right: 6px;
+}
+
+
+ .bdt-style13-button button {
+    padding: 2px 38px;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    border-radius: 3px;
+    background: transparent;
+    color: #000;
+}
+
+ .bdt-style13-button .uk-button-primary {
+    border: 1px solid #1e87f0;
+}
+
+ .bdt-style13-button .uk-button-secondary {
+    border: 1px solid #000;
+}
+
+ .bdt-style13-button .uk-button-danger {
+    border: 1px solid #f0506e;
+}
+
+ .bdt-style13-button .uk-button.uk-button-info {
+    border: 1px solid #8963e1;
+}
+ .bdt-style13-button .uk-button.uk-button-info:hover{
+   color: #fff;
+}
+
+
+.bdt-button-style13-wrapper .bdt-style13-button .uk-button-warning:hover{
+    color: #fff;
+}
+ .bdt-style13-button .uk-button-succsess:hover{
+    color: #fff;
+}
+
+
+/* ================================================
+     Button Style-13 CSS End
+================================================ */
+
+
+/* ================================================
+     Button Style-14 CSS Start
+================================================ */
+
+.bdt-style14-button-radius svg ,
+.bdt-style14-button-radius-hover svg {
+    width: 18px;
+}
+
+.bdt-style14-button-radius button ,.bdt-style14-button-radius-hover button{
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.bdt-style14-button-radius-hover button{
+    background: transparent;
+    color: #000;
+}
+
+.bdt-style14-button-radius-hover .uk-button-primary {
+    border: 1px solid #1e87f0;
+}
+
+.bdt-style14-button-radius-hover .uk-button-secondary{
+    border: 1px solid #000;
+}
+.bdt-style14-button-radius-hover .uk-button-danger {
+    border: 1px solid #f0506e;
+}
+.bdt-style14-button-radius-hover .uk-button-succsess:hover   {
+    color: #fff;
+}
+.bdt-style14-button-radius-hover .uk-button-warning:hover {
+    color: #fff;
+}
+
+/* ================================================
+     Button Style-14 CSS End
+================================================ */
+
+
+/* ================================================
+     Button Style-15 CSS Start
+================================================ */
+
+.bdt-style15-button-carcel svg ,
+.bdt-style15-button-carcel-hover svg {
+    width: 18px;
+}
+
+.bdt-style15-button-carcel button ,.bdt-style15-button-carcel-hover button{
+    padding: 0px 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+.bdt-style15-button-carcel-hover button{
+    background: transparent;
+    color: #000;
+}
+
+.bdt-style15-button-carcel-hover .uk-button-primary {
+    border: 1px solid #1e87f0;
+}
+
+.bdt-style15-button-carcel-hover .uk-button-secondary{
+    border: 1px solid #000;
+}
+.bdt-style15-button-carcel-hover .uk-button-danger {
+    border: 1px solid #f0506e;
+}
+.bdt-style14-button-carcel-hover .uk-button-succsess:hover   {
+    color: #fff;
+}
+.bdt-style15-button-carcel-hover .uk-button-warning:hover {
+    color: #fff;
+}
+
+
+/* ================================================
+     Button Style-15 CSS End
+================================================ */
+
+/* ================================================
+     Button Area CSS End
+================================================ */

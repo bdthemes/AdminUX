@@ -1,0 +1,286 @@
+/* ================================================
+    Forum Area Start
+================================================ */
+
+
+/* ================================================
+    Forum General Topics Area Start
+================================================ */
+
+.bdt-general-topics-forum-wrapper .bdt-general-topics-header-area {
+    border-bottom: 1px solid #dcd7d7;
+    padding-bottom: 10px;
+}
+
+.bdt-general-topics-forum-wrapper .bdt-general-topics-header-area h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #393c3c;
+}
+
+.bdt-general-topics-forum-wrapper .bdt-general-topics-wrapper {
+    display: flex;
+    
+}
+
+
+.bdt-general-topics-icon-style-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bdt-general-topics-forum-wrapper .bdt-general-topics-wrapper .bdt-general-topics-icon-style-1 span {
+    color: #fff;
+    background: #f44336;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.bdt-general-topics-icon-style-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bdt-general-topics-forum-wrapper .bdt-general-topics-wrapper .bdt-general-topics-icon-style-2 span {
+    color: #fff;
+    background: #9c27b0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.bdt-general-topics-icon-style-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bdt-general-topics-forum-wrapper .bdt-general-topics-wrapper .bdt-general-topics-icon-style-3 span {
+    color: #fff;
+    background: #795548;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.bdt-general-topics-icon-style-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bdt-general-topics-forum-wrapper .bdt-general-topics-wrapper .bdt-general-topics-icon-style-4 span {
+    color: #fff;
+    background: #3f51b5;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.bdt-general-topics-forum-wrapper .bdt-general-topics-wrapper .bdt-general-topics-content a {
+    color: #00000096;
+    text-decoration: none;
+}
+
+.bdt-general-topics-forum-wrapper .bdt-general-topics-wrapper .bdt-general-topics-content p {
+    font-size: 14px;
+    color: #000000bf;
+}
+
+.bdt-general-topics-forum-wrapper .bdt-general-topics-wrapper .bdt-general-topics-views-replies {
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.bdt-general-topics-forum-wrapper .bdt-general-topics-wrapper .bdt-general-topics-views-replies .bdt-forum-start {
+    padding-left: 40px;
+}
+
+.bdt-general-topics-forum-wrapper .bdt-general-topics-wrapper .bdt-general-topics-views-replies .bdt-forum-start h6 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+}
+
+/* ================================================
+    Forum General Topics Area End
+================================================ */
+
+
+
+/* ================================================
+    Forum Client Topics Area Start
+================================================ */
+
+.bdt-client-topics-forum-wrapper .bdt-client-topics-header-area {
+    border-bottom: 1px solid #dcd7d7;
+    padding-bottom: 10px;
+}
+
+.bdt-client-topics-forum-wrapper .bdt-client-topics-header-area h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #393c3c;
+}
+
+.bdt-client-topics-forum-wrapper .bdt-client-topics-wrapper {
+    display: flex;
+    
+}
+
+
+.bdt-client-topics-icon-style-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bdt-client-topics-forum-wrapper .bdt-client-topics-wrapper .bdt-client-topics-icon-style-1 span {
+    color: rgb(0 0 0 / 55%);
+    background: #9e9e9e;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.bdt-client-topics-icon-style-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bdt-client-topics-forum-wrapper .bdt-client-topics-wrapper .bdt-client-topics-icon-style-2 span {
+    color: rgb(0 0 0 / 52%);
+    background: rgb(189, 189, 189);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.bdt-client-topics-icon-style-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bdt-client-topics-forum-wrapper .bdt-client-topics-wrapper .bdt-client-topics-icon-style-3 span {
+    color: #888181;
+    background: #e0e0e0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.bdt-client-topics-icon-style-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bdt-client-topics-forum-wrapper .bdt-client-topics-wrapper .bdt-client-topics-icon-style-4 span {
+    color: #fff;
+    background: #4caf50;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.bdt-client-topics-forum-wrapper .bdt-client-topics-wrapper .bdt-client-topics-content a {
+    color: #00000096;
+    text-decoration: none;
+}
+
+.bdt-client-topics-forum-wrapper .bdt-client-topics-wrapper .bdt-client-topics-content p {
+    font-size: 14px;
+    color: #000000bf;
+}
+
+.bdt-client-topics-forum-wrapper .bdt-client-topics-wrapper .bdt-client-topics-views-replies {
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.bdt-client-topics-forum-wrapper .bdt-client-topics-wrapper .bdt-client-topics-views-replies .bdt-forum-start {
+    padding-left: 40px;
+}
+
+.bdt-client-topics-forum-wrapper .bdt-client-topics-wrapper .bdt-client-topics-views-replies .bdt-forum-start h6 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+}
+
+/* ================================================
+    Forum Client Topics Area End
+================================================ */
+
+
+
+/* ================================================
+    Forum Area End
+================================================ */
+
+
+
+
+
+
+/* ================================================
+   Responsive Area CSS Start
+================================================ */
+
+@media only screen and (max-width: 600px) 
+{
+
+    .bdt-general-topics-forum-wrapper .bdt-general-topics-wrapper .bdt-general-topics-views-replies {
+        display: block;
+    }
+
+    .bdt-general-topics-forum-wrapper .bdt-general-topics-wrapper .bdt-general-topics-views-replies .bdt-forum-start {
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bdt-client-topics-forum-wrapper .bdt-client-topics-wrapper .bdt-client-topics-views-replies {
+        display: block;
+    }
+
+    .bdt-client-topics-forum-wrapper .bdt-client-topics-wrapper .bdt-client-topics-views-replies .bdt-forum-start {
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .uk-margin-left {
+        margin-left: 10px!important;
+    }
+
+}
+
+/* ================================================
+   Responsive Area CSS End
+================================================ */

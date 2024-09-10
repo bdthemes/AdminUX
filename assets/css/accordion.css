@@ -1,0 +1,195 @@
+/* ================================================
+    Accordion  Area Css Start
+================================================ */
+
+
+/* ================================================
+    Accordion  Style-1 Css Start
+================================================ */
+
+.bdt-accordion-style1-wrapper .bdt-accordion-style1-title{
+    background: #fff;
+    padding: 26px 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #222222;
+    box-shadow: 0 5px 15px rgba(0,0,0,.05);
+}
+
+
+.bdt-accordion-style1-wrapper .bdt-accordion-style1-content {
+    background: #fff;
+    margin: 0;
+    padding: 18px;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.05);
+    border-top: 1px solid rgba(153, 153, 153, 0.17);
+}
+
+
+.bdt-accordion-style1-wrapper .bdt-accordion-style1-icon1 svg ,
+.bdt-accordion-style1-icon2 svg {
+    width: 15px;
+    margin: 10;
+    margin-right: 5px;
+    color: #000;
+    margin-top: -5px;
+}
+
+.bdt-accordion-style1-wrapper .bdt-accordion-style1-icon2 svg{
+    margin-left: 5px;
+}
+
+/* ================================================
+    Accordion  Style-1 Css End
+================================================ */
+
+
+/* ================================================
+    Accordion  Style-2 Css Start
+================================================ */
+
+.bdt-accordion-style2-wrapper .bdt-accordion-style2-title{
+    background: #f7f7f7;
+    padding: 26px 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #222222;
+    
+}
+
+.bdt-accordion-style2-wrapper .bdt-accordion-style2-content {
+    background: #f7f7f7;
+    margin: 0;
+    padding: 18px;
+    font-size: 16px;
+    border-top: 1px solid rgba(153, 153, 153, 0.17);
+}
+
+/* ================================================
+    Accordion  Style-2 Css End
+================================================ */
+
+
+/* ================================================
+    Accordion  Style-3 Css Start
+================================================ */
+
+.bdt-accordion-style3-wrapper .bdt-accordion-style3-title{
+    padding: 26px 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    background: #444;
+    color: #bbb;
+    
+}
+
+.bdt-accordion-style3-wrapper .bdt-accordion-style3-content {
+    background: #555;
+    margin: 0;
+    color: #999;
+    padding: 18px;
+    font-size: 16px;
+}
+
+/* ================================================
+    Accordion  Style-3 Css End
+================================================ */
+
+
+/* ================================================
+    Accordion  Style-4 Css Start
+================================================ */
+
+.bdt-accordion-style4-wrapper .bdt-accordion-style4-title{
+    padding: 26px 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    background: #fff;  
+    border-left: 2px solid #444;  
+    color: #222222;
+    box-shadow: 0 5px 15px rgba(0,0,0,.05);
+}
+
+.bdt-accordion-style4-wrapper .bdt-accordion-style4-content {
+    background: #fff;
+    border-top: 1px solid rgba(238, 238, 238, 0.62);
+    margin: 0;
+    color: #999;
+    padding: 18px;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.05);
+}
+
+/* ================================================
+    Accordion  Style-4 Css End
+================================================ */
+
+
+/* ================================================
+    Accordion  Style-5 Css Start
+================================================ */
+.bdt-accordion-style5-wrapper .bdt-accordion-style5-title1{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #222222;
+    padding: 20px 10px;
+}
+
+.bdt-accordion-style5-wrapper .bdt-accordion-style5-title{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    color: #222222;
+    padding: 20px 10px;
+}
+
+
+.bdt-accordion-style5-wrapper .bdt-accordion-style5-content {
+    margin: 0;
+    color: #999;
+    padding: 18px;
+    font-size: 16px;
+}
+
+
+/* ================================================
+    Accordion  Style-5 Css End
+================================================ */
+
+
+/* ================================================
+    Accordion  Style-6 Css Start
+================================================ */
+
+.bdt-accordion-style6-wrapper .bdt-accordion-style6-title{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    color: #222222;
+    padding: 20px 10px;
+}
+
+
+.bdt-accordion-style6-wrapper .bdt-accordion-style6-content {
+    margin: 0;
+    color: #999;
+    padding: 18px;
+    font-size: 16px;
+}
+
+/* ================================================
+    Accordion  Style-6 Css End
+================================================ */
+
+/* ================================================
+    Accordion  Area Css End
+================================================ */
+

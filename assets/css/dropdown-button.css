@@ -1,0 +1,174 @@
+/* ================================================
+    Dropdown Button Area CSS Start
+================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.card-title {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ================================================
+    Dropdown Button Style-1 CSS Start
+================================================ */
+
+.bdt-dropdown-button-style1-wrapper .uk-dropdown.uk-open.uk-dropdown-bottom-left a {
+    color: #000000bf;
+    display: grid;
+    text-decoration: none;
+    line-height: 34px;
+}
+
+.bdt-style1-button button {
+    margin-bottom: 5px;
+}
+
+
+/* ================================================
+    Dropdown Button Style-1 CSS End
+================================================ */
+
+
+/* ================================================
+    Dropdown Button Style-2 CSS Start
+================================================ */
+
+.bdt-style2-button-hover button {
+    background: transparent;
+    margin-bottom: 5px;
+}
+
+.bdt-style2-button-hover .uk-button-primary {
+    border: 1px solid #1e87f0;
+    color: #000;
+}
+.bdt-style2-button-hover .uk-button-primary:hover {
+    color: #fff;
+}
+.bdt-style2-button-hover .uk-button-secondary {
+    border: 1px solid #000;
+    color: #000;
+}
+.bdt-style2-button-hover .uk-button-secondary:hover {
+    color: #fff;
+}
+.bdt-style2-button-hover .uk-button-danger {
+    border: 1px solid #ec2147;
+    color: #000;
+}
+.bdt-style2-button-hover .uk-button-danger:hover {
+    color: #fff;
+}
+
+.bdt-style2-button-hover .uk-button-warning {
+    border: 1px solid #dadada;
+    color: #000c;
+}
+
+.bdt-style2-button-hover .uk-button-warning:hover {
+    background:  #dadada;
+}
+
+/* ================================================
+    Dropdown Button Style-2 CSS End
+================================================ */
+
+
+
+/* ================================================
+    Dropdown Button Style-3 CSS Start
+================================================ */
+
+.bdt-dropdown-button-style3-wrapper .bdt-dropdown-style3-icon-button {
+    padding: 0 16px;
+}
+
+.bdt-dropdown-button-style3-wrapper .uk-button-group {
+    margin-bottom: 5px;
+}
+
+/* ================================================
+    Dropdown Button Style-3 CSS End
+================================================ */
+
+
+/* ================================================
+    Dropdown Button Style-4 CSS Start
+================================================ */
+
+.bdt-dropdown-button-style4-wrapper .bdt-dropdown-style4-icon-button {
+    padding: 0 16px;
+}
+
+.bdt-dropdown-button-style4-wrapper .uk-button-group {
+    margin-bottom: 5px;
+}
+
+/* ================================================
+    Dropdown Button Style-4 CSS End
+================================================ */
+
+
+
+/* ================================================
+    Dropdown Button Style-5 CSS Start
+================================================ */
+
+.bdt-dropdown-button-style5-wrapper .bdt-button-style5 button{
+    margin-bottom: 5px;
+}
+
+
+/* ================================================
+    Dropdown Button Style-5 CSS End
+================================================ */
+
+
+/* ================================================
+    Dropdown Button Style-6 CSS Start
+================================================ */
+
+.bdt-dropdown-button-style6-wrapper .bdt-button-style6 button{
+    margin-bottom: 5px;
+}
+.bdt-dropdown-button-style6-wrapper .bdt-button-style6 svg {
+    margin-right: 6px;
+}
+
+/* ================================================
+    Dropdown Button Style-6 CSS End
+================================================ */
+
+
+/* ================================================
+    Dropdown Button Style-9 CSS Start
+================================================ */
+
+
+.bdt-dropdown-button-style9-wrapper .bdt-style9-animation-button button{
+    margin-bottom: 5px;
+}
+
+/* ================================================
+    Dropdown Button Style-9 CSS Start
+================================================ */
+
+/* ================================================
+    Dropdown Button Area CSS Start
+================================================ */

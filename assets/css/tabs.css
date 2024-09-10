@@ -1,0 +1,163 @@
+
+/* ================================================
+     Tabs Area Css  Start
+================================================ */
+
+
+/* ================================================
+     Tabs Style-1 Css  Start
+================================================ */
+
+.bdt-tabs-wrapper-style-1 .bdt-tabs-subnav-style-1 li a {
+    font-size: 12px;
+    padding: 9px 13px;
+    border-radius: 3px;
+}
+
+
+.bdt-tabs-wrapper-style-1 .bdt-tabs-box-style-1 {
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+.bdt-tabs-wrapper-style-1 .bdt-tabs-box-style-1 .bdt-box-title-style-1 {
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    color: #444;;
+}
+
+.bdt-tabs-wrapper-style-1 .bdt-tabs-box-style-1 .bdt-box-content-style-1 {
+    line-height: 27px;
+}
+
+/* ================================================
+     Tabs Style-1 Css  End
+================================================ */
+
+
+/* ================================================
+     Tabs Style-2 Css  Start
+================================================ */
+
+.bdt-tabs-wrapper-style-2 .bdt-tabs-subnav-style-2 li a {
+    font-size: 12px;
+    padding: 9px 13px;
+    border-radius: 3px;
+    
+}
+
+.bdt-tabs-wrapper-style-2 .uk-subnav-pill>.uk-active>a {
+    background-color: #f0506e;
+    color: #fff;
+}
+
+
+.bdt-tabs-wrapper-style-2 .bdt-tabs-box-style-2 {
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+.bdt-tabs-wrapper-style-2 .bdt-tabs-box-style-2 .bdt-box-title-style-2 {
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #000;
+    padding: 15px 25px 13px ;
+    color: #fff;;
+    border-radius: 5px;
+}
+
+.bdt-tabs-wrapper-style-2 .bdt-tabs-box-style-2 .bdt-box-content-style-2 {
+    line-height: 27px;
+    padding: 25px;
+}
+
+/* ================================================
+     Tabs Style-2 Css  End
+================================================ */
+
+
+/* ================================================
+     Tabs Style-3 Css  Start
+================================================ */
+
+.bdt-tabs-wrapper-style-3 .bdt-tabs-subnav-style-3 li a {
+    font-size: 12px;
+    padding: 9px 13px;
+    border-radius: 3px;
+    
+}
+
+.bdt-tabs-wrapper-style-3 .bdt-tabs-box-style-3 {
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+.bdt-tabs-wrapper-style-3 .bdt-tabs-box-style-3 .bdt-box-title-style-3 {
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #ccc;
+    padding: 15px 25px 13px;
+    color: #191717;
+    border-radius: 5px;
+}
+
+.bdt-tabs-wrapper-style-3 .bdt-tabs-box-style-3 .bdt-box-content-style-3 {
+    line-height: 27px;
+    padding: 25px;
+}
+
+/* ================================================
+     Tabs Style-3 Css  End
+================================================ */
+
+
+/* ================================================
+     Tabs Style-4 Css  Start
+================================================ */
+
+.bdt-tabs-wrapper-style-4 .bdt-tabs-subnav-style-4 li a {
+    font-size: 12px;
+    padding: 9px 13px;
+    border-radius: 3px;
+}
+
+.bdt-tabs-wrapper-style-4 .bdt-tabs-box-style-4 {
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.bdt-tabs-wrapper-style-4 .bdt-tabs-box-style-4 .bdt-box-title-style-4 {
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #333;
+    padding: 15px 25px 13px;
+    color: #bbb;
+}
+
+.bdt-tabs-wrapper-style-4 .bdt-tabs-box-style-4 .bdt-box-content-style-4 {
+    line-height: 27px;
+    padding: 25px;
+    background: #000000e6;
+    color: #ffffff87;
+}
+
+/* ================================================
+     Tabs Style-4 Css  End
+================================================ */
+
+
+/* ================================================
+     Tabs Area Css  End
+================================================ */
+

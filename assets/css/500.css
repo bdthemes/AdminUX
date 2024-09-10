@@ -1,0 +1,62 @@
+/* ================================================
+   500 Area CSS Start
+================================================ */
+.bdt-500-page-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #343434;
+}
+
+.bdt-500-page-content h2 {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bdt-500-page-content h1 {
+    font-size: 100px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../../assets/image/img/500.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+
+}
+
+.bdt-500-page-content p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bdt-500-button {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+
+@media (min-width: 640px) {
+    .bdt-500-page-content h1 {
+        font-size: 180px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .bdt-500-page-content h1 {
+        font-size: 280px;
+    }
+}
+
+/* ================================================
+   500 Area CSS End
+================================================ */

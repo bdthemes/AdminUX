@@ -1,0 +1,28 @@
+
+/* ================================================
+    Media Tile Area Start
+================================================ */
+
+.bdt-media-tile-wrapper .bdt-media-tile-header-title h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bdt-media-tile-wrapper .bdt-media-tile .bdt-media-tile-overlay-content h3 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.bdt-media-tile-wrapper .bdt-media-tile .bdt-media-tile-overlay-content p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.bdt-media-tile-wrapper .bdt-media-tile .uk-overlay {
+    padding: 10px 20px;
+}
+/* ================================================
+    Media Tile Area End
+================================================ */

@@ -1,0 +1,533 @@
+/* ================================================
+    Avatars Area Css Start
+================================================ */
+
+
+/* ================================================
+    Avatars Style-1 Css Start
+================================================ */
+
+.bdt-avatars-wrapper-style-1 
+.bdt-avatars-img-style-1 img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.bdt-avatars-wrapper-style-1 
+.bdt-avatars-img-style-1 .bdt-avatars-img-item-1 {
+    border-radius: 100%;
+    width: 130px;
+}
+
+.bdt-avatars-wrapper-style-1 
+.bdt-avatars-img-style-1 .bdt-avatars-img-item-2 {
+    width: 112px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-1 
+.bdt-avatars-img-style-1 .bdt-avatars-img-item-3 {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-1 
+.bdt-avatars-img-style-1 .bdt-avatars-img-item-4 {
+    width: 90px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-1 
+.bdt-avatars-img-style-1 .bdt-avatars-img-item-5 {
+    width: 80px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-1 
+.bdt-avatars-img-style-1 .bdt-avatars-img-item-6 {
+    width: 70px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-1 
+.bdt-avatars-img-style-1 .bdt-avatars-img-item-7 {
+    width: 60px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-1 
+.bdt-avatars-img-style-1 .bdt-avatars-img-item-8 {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-1 
+.bdt-avatars-img-style-1 .bdt-avatars-img-item-9 {
+    width: 40px;
+    border-radius: 100%;
+}
+
+/* ================================================
+    Avatars Style-1 Css End
+================================================ */
+
+
+/* ================================================
+    Avatars Style-2 Css Start
+================================================ */
+
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 {
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/*================================*/
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-1 img {
+    border-radius: 100%;
+    width: 130px;
+}
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-1 .bdt-active-dot {
+    background-color: #0cff4c;
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid #fff;
+}
+
+/*================================*/
+
+
+/*================================*/
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-2 img{
+    border-radius: 100%;
+    width: 112px;
+}
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-2 .bdt-active-dot {
+    background-color: #9e4b6e;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    border: 1px solid #fff;
+    top: 0;
+}
+
+/*================================*/
+
+/*================================*/
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-3 img{
+    border-radius: 100%;
+    width: 100px;
+}
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-3 .bdt-active-dot {
+    background-color: #0cff4c;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid #fff;
+    bottom: 15px;
+}
+
+/*================================*/
+
+
+/*================================*/
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-4 img{
+    border-radius: 100%;
+    width: 90px;
+}
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-4 .bdt-active-dot {
+    background-color: #9e4b6e;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    border: 1px solid #fff;
+    top: 0;
+}
+
+/*================================*/
+
+/*================================*/
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-5 img{
+    border-radius: 100%;
+    width: 80px;
+}
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-5 .bdt-active-dot {
+    background-color: #0cff4c;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    border: 1px solid #fff;
+    top: 0;
+}
+
+/*================================*/
+
+
+/*================================*/
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-6 img{
+    border-radius: 100%;
+    width: 70px;
+}
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-6 .bdt-active-dot {
+    background-color: #9e4b6e;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    border: 1px solid #fff;
+    top: 0;
+}
+
+/*================================*/
+
+
+/*================================*/
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-7 img{
+    border-radius: 100%;
+    width: 60px;
+}
+
+.bdt-avatars-wrapper-style-2 .bdt-avatars-img-style-2 .bdt-avatars-img-item-7 .bdt-active-dot {
+    background-color: #0cff4c;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    border: 1px solid #fff;
+    top: 0;
+}
+
+/*================================*/
+
+/* ================================================
+    Avatars Style-2 Css End
+================================================ */
+
+
+/* ================================================
+    Avatars Style-3 Css Start
+================================================ */
+
+.bdt-avatars-wrapper-style-3 
+.bdt-avatars-img-style-3 img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.bdt-avatars-wrapper-style-3 .bdt-avatars-img-style-3 .bdt-avatars-img-item-1 {
+    border-radius: 100%;
+    width: 130px;
+}
+
+.bdt-avatars-wrapper-style-3 
+.bdt-avatars-img-style-3 .bdt-avatars-img-item-2 {
+    width: 112px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-3 
+.bdt-avatars-img-style-3 .bdt-avatars-img-item-3 {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-3 
+.bdt-avatars-img-style-3 .bdt-avatars-img-item-4 {
+    width: 90px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-3 
+.bdt-avatars-img-style-3 .bdt-avatars-img-item-5 {
+    width: 80px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-3 
+.bdt-avatars-img-style-3 .bdt-avatars-img-item-6 {
+    width: 70px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-3 
+.bdt-avatars-img-style-3 .bdt-avatars-img-item-7 {
+    width: 60px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-3 
+.bdt-avatars-img-style-3 .bdt-avatars-img-item-8 {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.bdt-avatars-wrapper-style-3 
+.bdt-avatars-img-style-3 .bdt-avatars-img-item-9 {
+    width: 40px;
+    border-radius: 100%;
+}
+
+/* ================================================
+    Avatars Style-3 Css End
+================================================ */
+
+
+/* ================================================
+    Avatars Style-4 Css Start
+================================================ */
+
+.bdt-avatars-wrapper-style-4 
+.bdt-avatars-img-style-4 img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.bdt-avatars-wrapper-style-4 .bdt-avatars-img-style-4 .bdt-avatars-img-item-1 {
+    border-radius: 8px;
+    width: 130px;
+}
+
+.bdt-avatars-wrapper-style-4 
+.bdt-avatars-img-style-4 .bdt-avatars-img-item-2 {
+    width: 112px;
+    border-radius: 30px;
+}
+
+.bdt-avatars-wrapper-style-4 
+.bdt-avatars-img-style-4 .bdt-avatars-img-item-3 {
+    width: 100px;
+    border-radius: 35px;
+}
+
+.bdt-avatars-wrapper-style-4 
+.bdt-avatars-img-style-4 .bdt-avatars-img-item-4 {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.bdt-avatars-wrapper-style-4 
+.bdt-avatars-img-style-4 .bdt-avatars-img-item-5 {
+    width: 80px;
+    border-radius: 25px;
+}
+
+.bdt-avatars-wrapper-style-4 
+.bdt-avatars-img-style-4 .bdt-avatars-img-item-6 {
+    width: 70px;
+    border-radius: 15px;
+}
+
+
+/* ================================================
+    Avatars Style-4 Css End
+================================================ */
+
+
+/* ================================================
+    Avatars Style-5 Css Start
+================================================ */
+
+.bdt-avatars-wrapper-style-5 
+.bdt-avatars-img-style-5 img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.bdt-avatars-wrapper-style-5 
+.bdt-avatars-img-style-5 .bdt-avatars-img-item-1 {
+    width: 130px;
+    border-radius: 8px;
+}
+
+
+.bdt-avatars-wrapper-style-5 
+.bdt-avatars-img-style-5 .bdt-avatars-img-item-2 {
+    width: 112px;
+    border-radius: 8px;
+}
+
+.bdt-avatars-wrapper-style-5
+.bdt-avatars-img-style-5 .bdt-avatars-img-item-3 {
+    width: 100px;
+    border-radius: 8px;
+}
+
+.bdt-avatars-wrapper-style-5 
+.bdt-avatars-img-style-5 .bdt-avatars-img-item-4 {
+    width: 90px;
+    border-radius: 8px;
+}
+
+.bdt-avatars-wrapper-style-5 
+.bdt-avatars-img-style-5 .bdt-avatars-img-item-5 {
+    width: 80px;
+    border-radius: 8px;
+}
+
+.bdt-avatars-wrapper-style-5 
+.bdt-avatars-img-style-5 .bdt-avatars-img-item-6 {
+    width: 70px;
+    border-radius: 8px;
+}
+
+
+/* ================================================
+    Avatars Style-5 Css End
+================================================ */
+
+/* ================================================
+    Avatars Style-6 Css Start
+================================================ */
+
+
+/*================================*/
+
+.bdt-avatar-group-item-1-style-6 {
+    margin-bottom: 10px;
+}
+
+.bdt-avatar-group-wrapper-style-6 
+.bdt-avatar-group-item-1-style-6 img {
+    border: 2px solid #fff;
+    -webkit-box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.2);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    width: 70px;
+    border-radius: 100%;
+    
+}
+
+.bdt-avatar-group-wrapper-style-6 
+.bdt-avatar-group-item-1-style-6 img:hover {
+    webkit-transform: translateY(-4px) scale(1.02);
+    transform: translateY(-4px) scale(1.02);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
+}
+
+.bdt-avatar-group-wrapper-style-6  
+.bdt-avatar-group-item-1-style-6 .bdt-group-img-2 {
+    margin-left: -14px;
+}
+
+.bdt-avatar-group-wrapper-style-6  
+.bdt-avatar-group-item-1-style-6 .bdt-group-img-3 {
+    margin-left: -14px;
+}
+
+/*================================*/
+
+
+/*================================*/
+
+.bdt-avatar-group-item-2-style-6 {
+    margin-bottom: 10px;
+}
+
+
+.bdt-avatar-group-wrapper-style-6 
+.bdt-avatar-group-item-2-style-6 img {
+    border: 2px solid #fff;
+    -webkit-box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.2);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    width: 60px;
+    border-radius: 100%;
+    
+}
+
+.bdt-avatar-group-wrapper-style-6 
+.bdt-avatar-group-item-2-style-6 img:hover {
+    webkit-transform: translateY(-4px) scale(1.02);
+    transform: translateY(-4px) scale(1.02);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
+}
+
+.bdt-avatar-group-wrapper-style-6  
+.bdt-avatar-group-item-2-style-6 .bdt-group-img-2 {
+    margin-left: -14px;
+}
+
+.bdt-avatar-group-wrapper-style-6  
+.bdt-avatar-group-item-2-style-6 .bdt-group-img-3 {
+    margin-left: -14px;
+}
+
+/*================================*/
+
+
+/*================================*/
+
+.bdt-avatar-group-wrapper-style-6 
+.bdt-avatar-group-item-3-style-6 img {
+    border: 2px solid #fff;
+    -webkit-box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.2);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    width: 40px;
+    border-radius: 100%;
+    
+}
+
+.bdt-avatar-group-wrapper-style-6 
+.bdt-avatar-group-item-3-style-6 img:hover {
+    webkit-transform: translateY(-4px) scale(1.02);
+    transform: translateY(-4px) scale(1.02);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
+}
+
+.bdt-avatar-group-wrapper-style-6  
+.bdt-avatar-group-item-3-style-6 .bdt-group-img-2 {
+    margin-left: -14px;
+}
+
+.bdt-avatar-group-wrapper-style-6  
+.bdt-avatar-group-item-3-style-6 .bdt-group-img-3 {
+    margin-left: -14px;
+}
+
+/*================================*/
+
+/* ================================================
+    Avatars Style-6 Css End
+================================================ */
+
+/* ================================================
+    Avatars Area Css End
+================================================ */

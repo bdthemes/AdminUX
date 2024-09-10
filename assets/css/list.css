@@ -1,0 +1,57 @@
+/* ====================================
+    Media List Area Start
+======================================= */
+
+.bdt-media-list-wrapper .bdt-media-list-haeder-content h3 {
+    font-size: 16px;
+    color: #000000b3;
+}
+
+
+.bdt-media-list-wrapper .bdt-media-list-table-wrapper .bdt-media-list-table-heading th {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #0c0202de;
+    font-weight: 700;
+}
+
+.bdt-media-list-wrapper .uk-table td {
+    vertical-align: middle;
+}
+
+.bdt-media-list-wrapper .bdt-media-list-table-wrapper .bdt-media-list-table-data .bdt-media-list-profile-image img {
+    width: 70px;
+    border-radius: 3px;
+}
+
+.bdt-media-list-wrapper .bdt-media-list-table-wrapper .bdt-media-list-table-data .bdt-media-list-user a {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.bdt-media-list-wrapper .bdt-media-list-table-wrapper .bdt-media-list-table-data .bdt-media-list-registered {
+    font-size: 15px;
+    color: rgba(0,0,0,.87);
+}
+
+.bdt-media-list-wrapper .bdt-media-list-table-wrapper .bdt-media-list-table-data .bdt-media-list-location {
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000ad;
+}
+
+.bdt-media-list-wrapper .bdt-media-list-table-wrapper .bdt-media-list-table-data .bdt-media-list-email a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.bdt-media-list-wrapper .bdt-media-list-table-wrapper .bdt-media-list-table-data .bdt-media-list-phone-num {
+    font-size: 14px;
+    color: rgba(0,0,0,.87);
+}
+/* ====================================
+    Media List Area End
+======================================= */

@@ -1,0 +1,794 @@
+/* ================================================
+    E-Commerce Area CSS Start
+================================================ */
+
+/* ================================================
+    E-Commerce Style-1 CSS Start
+================================================ */
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 {
+    width: 100%;
+    background: #383636f7;
+    border-radius: 30px;
+    position: relative;
+    height: 500px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% ba;
+    height: 100%;
+    background: #cb042f;
+    clip-path: circle(170px at 77% 19%);
+    transition: 0.5s ease-in-out;
+    border-radius: 30px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1:hover::before {
+    clip-path: circle(338px at 89% -19%);
+}
+
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-commerce-image-box-style-1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 300px;
+    transition: 0.5s;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1:hover .bdt-e-commerce-image-box-style-1 {
+    top: 0;
+    transform: translateY(0%);
+  
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-commerce-image-box-style-1 img {
+    position: absolute;
+    top: 36%;
+    left: 38%;
+    transform: translate(-30%, -50%) rotate(-30deg);
+    width: 216px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 143px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1:hover .bdt-e-coomerce-content-box-style-1 {
+   height: 240px;
+}
+
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1
+ .bdt-product-size-style-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1:hover .bdt-e-coomerce-content-box-style-1
+ .bdt-product-size-style-1 {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 .bdt-product-size-style-1 h3 {
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 .bdt-product-size-style-1 span {
+    height: 25px;
+    width: 25px;
+    background: #fff;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 25px;
+    display: inline-block;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 .bdt-product-size-style-1 span:hover {
+
+    background: #cb042f;
+    color: #fff;
+
+}
+
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 .bdt-product-color-style-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1:hover .bdt-e-coomerce-content-box-style-1 .bdt-product-color-style-1 {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.6s;
+    
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 .bdt-product-color-style-1 h3 {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 .bdt-product-color-style-1 span {
+    width: 17px;
+    height: 17px;
+    background: #cb042f;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 .bdt-product-color-style-1 span:nth-child(2) {
+    background: #cb042f;
+    
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 .bdt-product-color-style-1 span:nth-child(3) {
+    background: #ff0;
+    
+}
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 .bdt-product-color-style-1 span:nth-child(4) {
+    background: #03a9f4;
+    
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 a.bdt-e-commerce-button-style-1 {
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 a.bdt-e-commerce-button-style-1 {
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    color: #111;
+    font-weight: 500;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1:hover .bdt-e-coomerce-content-box-style-1  a.bdt-e-commerce-button-style-1 {
+    transform: translateY(0px);
+    opacity: 1;
+    transition-delay: 0.75s;
+}
+
+
+/* ================================================
+    E-Commerce Style-1 CSS End
+================================================ */
+
+
+
+/* ================================================
+    E-Commerce Style-2 CSS Start
+================================================ */
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 {
+    width: 100%;
+    background: #383636f7;
+    border-radius: 30px;
+    position: relative;
+    height: 500px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% ba;
+    height: 100%;
+    background: #c3571a;
+    clip-path: circle(170px at 77% 19%);
+    transition: 0.5s ease-in-out;
+    border-radius: 30px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2:hover::before {
+    clip-path: circle(338px at 89% -19%);
+}
+
+
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-commerce-image-box-style-2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 300px;
+    transition: 0.5s;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2:hover .bdt-e-commerce-image-box-style-2 {
+    top: 0;
+    transform: translateY(0%);
+  
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-commerce-image-box-style-2 img {
+    position: absolute;
+    top: 46%;
+    left: 42%;
+    transform: translate(-30%, -50%) rotate(-30deg);
+    width: 261px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 143px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2:hover .bdt-e-coomerce-content-box-style-2 {
+   height: 240px;
+}
+
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2
+ .bdt-product-size-style-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2:hover .bdt-e-coomerce-content-box-style-2
+ .bdt-product-size-style-2 {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 .bdt-product-size-style-2 h3 {
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 .bdt-product-size-style-2 span {
+    height: 25px;
+    width: 25px;
+    background: #fff;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 25px;
+    display: inline-block;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 
+.bdt-product-size-style-2 span:hover {
+
+    background: #cb042f;
+    color: #fff;
+
+}
+
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 
+.bdt-product-color-style-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2:hover .bdt-e-coomerce-content-box-style-2 
+.bdt-product-color-style-2 {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.6s;
+    
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 
+.bdt-product-color-style-2 h3 {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 
+.bdt-product-color-style-2 span {
+    width: 17px;
+    height: 17px;
+    background: #cb042f;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 
+.bdt-product-color-style-2 span:nth-child(2) {
+    background: #cb042f;
+    
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 .bdt-product-color-style-2 span:nth-child(3) {
+    background: #d66610;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 .bdt-product-color-style-2 span:nth-child(4) {
+    background: #03a9f4;
+    
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 
+a.bdt-e-commerce-button-style-2 {
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 
+a.bdt-e-commerce-button-style-2 {
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    color: #111;
+    font-weight: 500;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2:hover .bdt-e-coomerce-content-box-style-2  
+a.bdt-e-commerce-button-style-2 {
+    transform: translateY(0px);
+    opacity: 1;
+    transition-delay: 0.75s;
+}
+
+
+/* ================================================
+    E-Commerce Style-2 CSS End
+================================================ */
+
+
+
+/* ================================================
+    E-Commerce Style-2 CSS Start
+================================================ */
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 {
+    width: 100%;
+    background: #383636f7;
+    border-radius: 30px;
+    position: relative;
+    height: 500px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% ;
+    height: 100%;
+    background: #1dcffb;
+    clip-path: circle(170px at 77% 19%);
+    transition: 0.5s ease-in-out;
+    border-radius: 30px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3:hover::before {
+    clip-path: circle(338px at 89% -19%);
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-commerce-image-box-style-3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 300px;
+    transition: 0.5s;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3:hover .bdt-e-commerce-image-box-style-3 {
+    top: 0;
+    transform: translateY(0%);
+  
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-commerce-image-box-style-3 img {
+    position: absolute;
+    top: 44%;
+    left: 42%;
+    transform: translate(-30%, -50%) rotate(1deg);
+    width: 200px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 143px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3:hover .bdt-e-coomerce-content-box-style-3 {
+   height: 240px;
+}
+
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3 h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3
+ .bdt-product-size-style-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3:hover .bdt-e-coomerce-content-box-style-3
+ .bdt-product-size-style-3 {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+
+.bdt-e-commerce-wrapper 
+.bdt-e-commerce-wrapper-style-3 
+.bdt-e-coomerce-content-box-style-3 
+.bdt-product-size-style-3 h3 {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3 
+.bdt-product-size-style-3 span {
+    height: 25px;
+    width: 25px;
+    background: #fff;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 25px;
+    display: inline-block;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3 
+.bdt-product-size-style-3 span:hover {
+
+    background: #cb042f;
+    color: #fff;
+
+}
+
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3 
+.bdt-product-color-style-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3:hover .bdt-e-coomerce-content-box-style-3 
+.bdt-product-color-style-3 {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.6s;
+    
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3 
+.bdt-product-color-style-3 h3 {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3 
+.bdt-product-color-style-3 span {
+    width: 17px;
+    height: 17px;
+    background: #cb042f;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3 
+.bdt-product-color-style-3 span:nth-child(2) {
+    background: #cb042f;
+    
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3 
+.bdt-product-color-style-3 span:nth-child(3) {
+    background: #ff0;
+    
+}
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3 .bdt-product-color-style-3 span:nth-child(4) {
+    background: #03a9f4;
+    
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3 
+a.bdt-e-commerce-button-style-3 {
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3 
+a.bdt-e-commerce-button-style-3 {
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    color: #111;
+    font-weight: 500;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3:hover .bdt-e-coomerce-content-box-style-3  
+a.bdt-e-commerce-button-style-3 {
+    transform: translateY(0px);
+    opacity: 1;
+    transition-delay: 0.75s;
+}
+
+
+/* ================================================
+    E-Commerce Style-3 CSS End
+================================================ */
+
+
+
+/* ================================================
+     E-commerce Products Area  Start
+================================================ */
+
+.bdt-e-commerce-product-wrapper .bdt-e-commerce-product-image img {
+    width: 100%;
+    border-radius: 6px;
+    transition: .3s linear;
+}
+
+.bdt-e-commerce-product-wrapper .bdt-e-commerce-product-content {
+    background: #ddddddf2;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 6px;
+    transform: translateY(-60px);
+    transition: .3s linear;
+}
+
+.bdt-e-commerce-product-wrapper .bdt-e-commerce-product-content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 6px;
+
+}
+
+.bdt-e-commerce-product-wrapper .bdt-e-commerce-product-content .bdt-e-commerce-product-price.uk-flex {
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.bdt-e-commerce-product-wrapper .bdt-e-commerce-product-content .bdt-e-commerce-product-price h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff3030;
+}
+
+.bdt-e-commerce-product-price span {
+    margin-left: 7px;
+    color: #f00;
+}
+
+.bdt-e-commerce-product-wrapper:hover .bdt-e-commerce-product-image img {
+    transform: translateY(20px);
+}
+
+.bdt-e-commerce-product-wrapper:hover .bdt-e-commerce-product-content {
+    
+    transform: translateY(-80px);
+}
+
+/* ================================================
+     E-commerce Products Area  End
+================================================ */
+
+
+/* ================================================
+    E-Commerce Area CSS End
+================================================ */
+
+
+/* ================================================
+    E-Commerce Area CSS End
+================================================ */
+
+
+/* ================================================
+   Responsive Area CSS Start
+================================================ */
+
+@media only screen and (max-width: 600px) 
+{
+   
+    .bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-commerce-image-box-style-1 img {
+        left: 32%;
+        width: 160px;
+        
+    }
+
+    .bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-commerce-image-box-style-2 img {
+        left: 32%;       
+        width: 180px;
+
+      
+    }
+
+    .bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-commerce-image-box-style-3 img {
+        left: 32%;  
+        width: 180px;
+
+  
+    }
+
+
+    .bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-1 .bdt-e-coomerce-content-box-style-1 .bdt-product-size-style-1 span {
+        height: 20px;
+        width: 20px;
+        margin: 0 2px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-2 .bdt-e-coomerce-content-box-style-2 .bdt-product-size-style-2 span {
+        height: 20px;
+        width: 20px;
+        margin: 0 2px;
+        line-height: 20px;
+        font-size: 12px;   
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-coomerce-content-box-style-3 .bdt-product-size-style-3 span {
+        height: 20px;
+        width: 20px;
+        margin: 0 2px;
+        line-height: 20px;
+        font-size: 12px;
+}
+
+.bdt-e-commerce-wrapper .bdt-e-commerce-wrapper-style-3 .bdt-e-commerce-image-box-style-3 img {
+    top: 40%;
+    
+}
+
+}
+
+/* ================================================
+   Responsive Area CSS End
+================================================ */
+
+
+

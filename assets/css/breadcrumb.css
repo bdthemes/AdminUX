@@ -1,0 +1,166 @@
+/* ================================================
+     Breadcrumb Area Css  Start
+================================================ */
+
+
+/* ================================================
+     Breadcrumb Style-1 Css  Start
+================================================ */
+
+.bdt-breadcrumb-style-1 {
+    padding: 28px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.bdt-breadcrumb-style-1 .uk-breadcrumb {
+    margin-left: auto;
+}
+
+
+.bdt-breadcrumb-style-1 .bdt-breadcrumb-title-style-1 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #444
+}
+/* ================================================
+     Breadcrumb Style-1 Css  End
+================================================ */
+
+
+/* ================================================
+     Breadcrumb Style-2 Css  Start
+================================================ */
+
+.bdt-breadcrumb-style-2 {
+    padding: 28px;
+    background: #1a1a1a;
+    display: flex;
+}
+
+.bdt-breadcrumb-style-2 .uk-breadcrumb {
+    margin-left: auto;
+}
+
+.bdt-breadcrumb-style-2 .bdt-breadcrumb-title-style-2 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #f8f8f8db;
+}
+
+.bdt-breadcrumb-style-2 .uk-breadcrumb li a {
+    color: #ffffff9e;
+}
+
+.bdt-breadcrumb-style-2 .uk-breadcrumb li a:hover {
+    color: #ffffff9e;
+}
+
+
+.bdt-breadcrumb-style-2 .uk-breadcrumb>:last-child>span {
+    color: #f5f5f5;
+}
+
+
+
+/* ================================================
+     Breadcrumb Style-2 Css  End
+================================================ */
+
+
+/* ================================================
+     Breadcrumb Style-3 Css  Start
+================================================ */
+
+.bdt-breadcrumb-style-3 {
+    padding: 54px 30px 30px 30px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.bdt-breadcrumb-style-3 .bdt-breadcrumb-title-style-3 {
+    font-size: 20px;
+    color: #444;
+    margin-left: auto;
+}
+
+/* ================================================
+     Breadcrumb Style-3 Css  End
+================================================ */
+
+
+
+
+/* ================================================
+     Breadcrumb Style-4 Css  Start
+================================================ */
+
+.bdt-breadcrumb-style-4 {
+    padding: 54px 30px 30px 30px;
+    background: #1a1a1a;
+    display: flex;
+}
+
+.bdt-breadcrumb-style-4 .bdt-breadcrumb-title-style-4 {
+    font-size: 20px;
+    color: #f8f8f8db;
+    margin-left: auto;
+}
+
+
+
+.bdt-breadcrumb-style-4 .uk-breadcrumb li a {
+    color: #ffffff9e;
+}
+
+.bdt-breadcrumb-style-4 .uk-breadcrumb li a:hover {
+    color: #ffffff9e;
+}
+
+
+.bdt-breadcrumb-style-4 .uk-breadcrumb>:last-child>span {
+    color: #f5f5f5;
+}
+
+
+/* ================================================
+     Breadcrumb Style-4 Css  End
+================================================ */
+
+
+/* ================================================
+     Breadcrumb Area Css  End
+================================================ */
+
+
+/* ======================================================
+    Responsive Area Start
+====================================================== */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 640px) {
+
+    .bdt-breadcrumb-style-1 {
+        display: inline-block;
+    }
+
+    .bdt-breadcrumb-style-2 {
+        display: inline-block;
+    }
+
+    .bdt-breadcrumb-style-3 {
+        display: inline-block;
+    }
+
+    .bdt-breadcrumb-style-4 {
+        display: inline-block;
+    }
+
+}
+/* ======================================================
+    Responsive Area End
+====================================================== */

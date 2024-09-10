@@ -1,0 +1,38 @@
+
+/* ================================================
+     Alert  Area CSS Start
+  ================================================ */
+
+
+
+/* ================================================
+     Alert  Style-3 CSS Start
+  ================================================ */
+
+.bdt-alert-style3-warrper {
+    background: transparent;
+    padding: 0;
+}
+
+
+.bdt-alert-style3-warrper  .uk-alert-close {
+    position: absolute;
+    right: 46px;
+    color: inherit;
+    opacity: .4;
+    top: 8px;
+}
+
+.bdt-alert-style3-warrper .bdt-alert-style3-title{
+    font-size: 18px !important;
+    margin-bottom: 18px !important;
+}
+
+/* ================================================
+     Alert  Style-3 CSS Start
+  ================================================ */
+
+
+/* ================================================
+     Alert  Area CSS End
+  ================================================ */

@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Tempalte</title>
+    <link rel="stylesheet" href="../assets/css/uikit.min.css">
+    <link rel="stylesheet" href="../assets/css/gallery.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+</head>
+<body>
+    
+    <!--=======================================
+            Header Navbar Area Start
+    =========================================-->
+        <div class="bdt-header-navbar-wraper">
+            <nav class="uk-navbar-container uk-margin bdt-navbar" uk-navbar="mode: click">
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <!--=======================================
+                            Header Logo Area Start
+                        =========================================-->
+                        <li class="bdt-nav-item bdt-navbar-brand-logo-wraper">
+                            <div class="bdt-brand-logo uk-visible@m">
+                                <a href="../index.html">
+                                    <img src="../assets/image/logo/logo.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="bdt-brand-logo uk-hidden@m">
+                                <a href="../index.html">
+                                    <img class="bdt-logo-mini" src="../assets/image/logo/logo-mini.svg" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <!--=======================================
+                            Header Logo Area End
+                        =========================================-->
+
+                        <!--=======================================
+                            Header Help Number Area Start
+                        =========================================-->
+
+                        <li class="bdt-help-number uk-visible@m">Help : +050 2992 709</li>
+
+                        <!--=======================================
+                            Header Help Number Area End
+                        =========================================-->
+
+                        <!--=======================================
+                            Header language Area Start
+                        =========================================-->
+
+                        <li class="bdt-language-wrapper">
+                            <a href="#">
+                                <div>
+                                    <span class="uk-margin-small-right">
+                                        <img class="bdt-language-icon" src="../assets/image/img/usa-today.svg" alt="">
+                                    </span>
+                                    <span class="bdt-selected-language uk-visible@m"> English</span>
+                                    <span class="uk-visible@m" uk-icon="icon: chevron-down"></span>
+                                </div>
+                            </a>
+
+                            <!--=======================================
+                                Header language Dropdown Area Start
+                            =========================================-->
+                            <div class="uk-navbar-dropdown bdt-dropdown-menu-wrapper">
+                                <ul class="uk-nav uk-navbar-dropdown-nav bdt-sub-menu">
+                                    <li class="uk-active bdt-sub-item">
+                                        <a href="#">
+                                            <div>
+                                                <span class="uk-margin-small-right">
+                                                    <img class="bdt-language-icon" src="../assets/image/img/usa-today.svg" alt="">
+                                                </span>
+                                                <span class="bdt-language-name"> English</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="bdt-sub-item">
+                                        <a href="#">
+                                            <div>
+                                                <span class="uk-margin-small-right">
+                                                    <img class="bdt-language-icon" src="../assets/image/img/india.svg" alt="">
+                                                </span>
+                                                <span class="bdt-language-name"> India</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="bdt-sub-item">
+                                        <a href="#">
+                                            <div>
+                                                <span class="uk-margin-small-right">
+                                                    <img class="bdt-language-icon" src="../assets/image/img/pakistan.svg" alt="">
+                                                </span>
+                                                <span class="bdt-language-name">Pakistan</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="bdt-sub-item">
+                                        <a href="#">
+                                            <div>
+                                                <span class="uk-margin-small-right">
+                                                <img class="bdt-language-icon" src="../assets/image/img/bangladesh.svg" alt=""></span>
+                                                <span class="bdt-language-name">Bangladesh</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        <!--=======================================
+                                Header language Dropdown Area End
+                        =========================================-->
+                        </li>
+                        <!--=======================================
+                            Header language Area End
+                        =========================================-->
+                    </ul>
+                </div>
+
+                <!--=======================================
+                    Header Search Area Start
+                =========================================-->
+                <div class="uk-navbar-center">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-visible@xl">
+                            <div class="bdt-from-group">
+                                <form class="uk-search uk-search-default bdt-search-from">
+                                    <input class="uk-search-input bdt-search-input" type="search" placeholder="Search Here">
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--=======================================
+                    Header Search Area End
+                =========================================-->
+
+                <!--=============================================  
+                Header Notification-Massage-Profile Area Start
+                =============================================-->
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                    <!--=======================================
+                        Header Notification Area Start
+                    =========================================-->
+                        <li class="bdt-nav-item-notification">
+                            <a href="#">
+                                <span class="bdt-bell-massage-icon" uk-icon="icon:  bell">
+                                    <span class="uk-badge">7</span>
+                                </span>
+                            </a>
+                            <div class="uk-navbar-dropdown bdt-dropdown-menu">
+                                <div class="bdt-dropdown-menu-content">
+                                    <span>You have 7 unread mails</span>
+                                    <a href="#"><span class="uk-badge bdt-badge-pill">view all</span></a>
+                                </div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav bdt-sub-menu">
+                                    <li class="uk-active bdt-sub-item">
+                                        <div class="bdt-privew-item-tamnail">
+                                            <div>
+                                            <img src="../assets/image/img/face10.jpg" alt="">
+                                        </div>
+                                            <div class="bdt-privew-item-content">
+                                                <h4>Marian Garner</h4>
+                                                <p>The meeting is cancelled</p>
+                                            </div>  
+                                        </div>
+                                    </li>
+                                    <li class="uk-active bdt-sub-item">
+                                        <div class="bdt-privew-item-tamnail">
+                                            <div>
+                                                <img src="../assets/image/img/face12.jpg" alt="">
+                                            </div>
+                                            <div class="bdt-privew-item-content">
+                                                <h4>David Grey</h4>
+                                                <p>The meeting is cancelled</p>
+                                            </div>  
+                                        </div>
+                                    </li>
+                                    <li class="uk-active bdt-sub-item">
+                                        <div class="bdt-privew-item-tamnail">
+                                            <div>
+                                                <img src="../assets/image/img/face1.jpg" alt="">
+                                            </div>
+                                            <div class="bdt-privew-item-content">
+                                                <h4>Travis Jenkins</h4>
+                                                <p>The meeting is cancelled</p>
+                                            </div>  
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    <!--=======================================
+                        Header Notification Area End
+                    =========================================-->
+
+                    <!--=======================================
+                        Header Massage Area Start
+                    =========================================-->
+                        <li class="bdt-nav-item-massage">
+                            <a href="#">
+                                <span class="bdt-bell-massage-icon" uk-icon="icon:   mail">
+                                    <span class="uk-badge">4</span>
+                                </span>
+                            </a>
+                            <div class="uk-navbar-dropdown bdt-dropdown-menu">
+                                <div class="bdt-dropdown-menu-content">
+                                    <span>You have 4 unread mails</span>
+                                    <a href="#"> <span class="uk-badge bdt-badge-pill">view all</span></a>
+                                </div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav bdt-sub-menu">
+                                    <li class="uk-active bdt-sub-item">
+                                        <div class="bdt-privew-item-tamnail">
+                                            <div>
+                                                <span uk-icon="icon: print"></span>
+                                            </div>
+                                            <div class="bdt-privew-item-content">
+                                                <h4>Application Error</h4>
+                                                <p>Just now</p>
+                                            </div>  
+                                        </div>
+                                    </li>
+                                    <li class="uk-active bdt-sub-item">
+                                        <div class="bdt-privew-item-tamnail">
+                                            <div>
+                                                <span uk-icon="icon: print"></span>
+                                            </div>
+                                            <div class="bdt-privew-item-content">
+                                                <h4>Application Error</h4>
+                                                <p>Just now</p>
+                                            </div>  
+                                        </div>
+                                    </li>
+                                    <li class="uk-active bdt-sub-item">  
+                                        <div class="bdt-privew-item-tamnail">
+                                            <div>
+                                                <span uk-icon="icon: cog"></span>
+                                            </div>
+                                            <div class="bdt-privew-item-content">
+                                                <h4>Settings</h4>
+                                                <p>Private message</p>
+                                            </div>  
+                                        </div>
+                                    </li>           
+                                </ul>
+                            </div>
+                        </li>
+                    <!--=======================================
+                        Header Massage Area End
+                    =========================================-->
+
+
+                    <!--=======================================
+                        Header Profile Area Start
+                    =========================================-->
+                        <li class="bdt-nav-item-profile uk-visible@m">
+                            <a href="#"><span class="uk-margin-small-right">
+                                <img class="bdt-profile-img" src="../assets/image/img/face12.jpg" alt=""></span>
+                                <span uk-icon="icon: chevron-down"></span>
+                            </a>
+                            <div class="uk-navbar-dropdown bdt-dropdown-menu">
+                                <div class="bdt-admin-profile-wraper uk-text-center">
+                                    <div>
+                                        <img src="assets/image/img/face12.jpg" alt="">
+                                    </div>
+                                    <div class="bdt-admin-profile-content">
+                                        <h3>Allen Moreno</h3>
+                                        <p>allenmoreno@gmail.com</p>
+                                    </div>
+                                </div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav bdt-sub-menu">
+                                    <li class="uk-active bdt-sub-item">
+                                        <a href="#"><span class="uk-margin-small-right">
+                                            <span class="bdt-profile-sub-menu"> My Profile</span>
+                                        </span>
+                                        <span class="uk-badge bdt-admin-profile-badge">1</span>
+                                            </a>
+                                    </li>
+                                    <li class="bdt-sub-item">
+                                        <a href="#"><span class="uk-margin-small-right">
+                                            <span class="bdt-profile-sub-menu"> Messages</span>                         
+                                        </span>
+                                            </a>
+                                    </li>
+                                    <li class="bdt-sub-item">
+                                        <a href="#"><span class="uk-margin-small-right">
+                                            <span class="bdt-profile-sub-menu"> Activity</span>
+                                        </span>
+                                            </a>
+                                    </li>
+                                    <li class="bdt-sub-item">
+                                        <a href="#"><span class="uk-margin-small-right">
+                                            <span class="bdt-profile-sub-menu"> FAQ</span>
+                                        </span>
+                                            </a>
+                                    </li>
+                                    <li class="bdt-sub-item">
+                                        <a href="./pages/login.html">
+                                            <span class="uk-margin-small-right">
+                                                <span class="bdt-profile-sub-menu"> Sign Out</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    <!--=======================================
+                        Header Profile Area End
+                    =========================================-->
+
+
+                <!--=======================================
+                            Header Offcanvas-Button Start
+                =========================================-->
+                        <li class="uk-hidden@m">
+                            <button class="uk-button bdt-offcanvas-button" type="button" uk-toggle="target: #offcanvas-nav-primary"><span uk-icon="icon: menu"></span></button>
+                        </li>
+                <!--=======================================
+                            Header Offcanvas-Button End
+                =========================================-->
+                    </ul>
+                </div>
+            <!--=============================================  
+                Header Notification-Massage-Profile Area End
+                =============================================-->
+            </nav>
+        </div>
+    <!--=======================================
+        Header Navbar Area End-
+    =========================================-->
+
+    <!---Page Body Area Start--->
+    <div class="bdt-page-body-wraper uk-flex uk-flex-row">
+
+    <!-- sidebar Start -->
+        <div class="bdt-sidebar-wraper uk-visible@m">
+            <div class="bdt-nav-profile">
+                <a href="#" class="bdt-nav-link-profile">
+                    <div class="bdt-profile-image">
+                        <img src="../assets/image/img/face8.jpg" alt="profile image">
+                        <div class="bdt-dot-indicator bdt-bg-success"></div>
+                    </div>
+                    <div class="bdt-text-wrapper">
+                        <p class="bdt-profile-name">Allen Moreno</p>
+                        <p class="bdt-designation">Premium user</p>
+                    </div>
+                </a>
+            </div>
+
+            <h3 class="bdt-nav-title">Main Menu</h3>
+
+            <ul class="uk-nav-default uk-nav-parent-icon bdt-sidebar-nav" uk-nav>
+
+                <li class="bdt-nav-item">
+                    <a class="bdt-nav-link" href="../index.html">   
+                        <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  file-text"></span> 
+                        <span class="bdt-menu-title"> Dashboard</span>
+                    </a>
+                </li>
+
+                <li class="uk-parent bdt-nav-item">
+                    <a class="bdt-nav-link" href="#">
+                        <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon: table"></span> 
+                        <span class="bdt-menu-title"> Basic UI Elements</span>
+                    </a>
+                    <ul class="uk-nav-sub bdt-sub-menu">
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/buttons.html">
+                                <span class="bdt-sub-menu-title"> Buttons</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/dropdown-button.html">
+                                <span class="bdt-sub-menu-title">Dropdowns</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/typography.html">
+                                <span class="bdt-sub-menu-title">Typography</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="uk-parent bdt-nav-item">
+                    <a class="bdt-nav-link" href="#">
+                        <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  lifesaver"></span> 
+                        <span class="bdt-menu-title"> Base</span>
+                    </a>
+                    <ul class="uk-nav-sub bdt-sub-menu">
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/accordion.html">
+                                <span class="bdt-sub-menu-title">Accordion</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/alert.html">
+                                <span class="bdt-sub-menu-title">Alert</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/slideshow.html">
+                                <span class="bdt-sub-menu-title">Slideshow</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/model.html">
+                                <span class="bdt-sub-menu-title">Modal</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/toggle.html">
+                                <span class="bdt-sub-menu-title">Toggle</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/tooltip.html">
+                                <span class="bdt-sub-menu-title">Tooltip</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/lightbox.html">
+                                <span class="bdt-sub-menu-title">Lightbox</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/pagination.html">
+                                <span class="bdt-sub-menu-title">Pagination</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/breadcrumb.html">
+                                <span class="bdt-sub-menu-title">Breadcrumb</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/tabs.html">
+                                <span class="bdt-sub-menu-title">Tabs</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/pricing.html">
+                                <span class="bdt-sub-menu-title">Pricing</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/blog.html">
+                                <span class="bdt-sub-menu-title">Blog</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/testimonials.html">
+                                <span class="bdt-sub-menu-title">Testimonials</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/shadow.html">
+                                <span class="bdt-sub-menu-title">Shadow</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/gallery.html">
+                                <span class="bdt-sub-menu-title">Gallery</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/services.html">
+                                <span class="bdt-sub-menu-title">Services</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/avatars.html">
+                                <span class="bdt-sub-menu-title">Avatars</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="bdt-nav-item">
+                    <a class="bdt-nav-link" href="../pages/form-elements.html">
+                        <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon: calendar"></span> 
+                        <span class="bdt-menu-title"> Form elements</span>
+                    </a>
+                </li>
+
+                <li class="bdt-nav-item">
+                    <a class="bdt-nav-link" href="../pages/chart.html">   
+                        <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  file-pdf"></span> 
+                        <span class="bdt-menu-title"> Charts</span>
+                    </a>
+                </li>
+
+                <li class="uk-parent bdt-nav-item">
+                    <a class="bdt-nav-link" href="#">
+                        <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  server"></span> 
+                        <span class="bdt-menu-title">Media</span>
+                    </a>
+                    <ul class="uk-nav-sub bdt-sub-menu">
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/grid.html">
+                                <span class="bdt-sub-menu-title">Grid</span>   
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/tile.html">
+                                <span class="bdt-sub-menu-title">Tile</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/list.html">   
+                                <span class="bdt-sub-menu-title">List</span>
+                            </a>
+                        </li>
+                
+                    </ul>
+                </li>
+
+                <li class="bdt-nav-item">
+                    <a class="bdt-nav-link" href="../pages/tables.html">   
+                        <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  bell"></span> 
+                        <span class="bdt-menu-title"> Tables</span>
+                    </a>
+                </li>
+
+                <li class="bdt-nav-item">
+                    <a class="bdt-nav-link" href="../pages/icons.html">   
+                        <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  database"></span> 
+                        <span class="bdt-menu-title"> Icons</span>
+                    </a>
+                </li>
+                <li class="bdt-nav-item">
+                    <a class="bdt-nav-link" href="../pages/e-commerce .html">   
+                        <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:   cart"></span> 
+                        <span class="bdt-menu-title">E-commerce</span>
+                    </a>
+                </li>
+
+                <li class="bdt-nav-item">
+                    <a class="bdt-nav-link" href="../pages/forum.html">   
+                        <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:   question"></span> 
+                        <span class="bdt-menu-title">Forum</span>
+                    </a>
+                </li>
+
+                <li class="uk-parent bdt-nav-item">
+                    <a class="bdt-nav-link" href="#">
+                        <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  user"></span> 
+                        <span class="bdt-menu-title"> User Pages</span>
+                    </a>
+                    <ul class="uk-nav-sub bdt-sub-menu">
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/blank-page.html">
+                                <span class="bdt-sub-menu-title"> Blank Page</span>   
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/login.html">
+                                <span class="bdt-sub-menu-title">Login</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/register.html">   
+                                <span class="bdt-sub-menu-title">Register</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/404.html">
+                                <span class="bdt-sub-menu-title">404</span>
+                            </a>
+                        </li>
+                        <li class="bdt-sub-menu-item">
+                            <a class="bdt-sub-nav-link" href="../pages/500.html">               
+                                <span class="bdt-sub-menu-title">500</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+   <!-- sidebar End -->
+
+    <!-- main panel Start -->
+      <div class="bdt-main-panel">
+        
+        <!--====================================
+            Gallery Area Start
+        ===================================== --> 
+            <div class="bdt-content-wrapper">
+                <div class="bdt-gallery-area">
+
+                <!--====================================
+                    Gallery Style-1 Start
+                ===================================== --> 
+                <div class="uk-card uk-card-default uk-card-body">
+                    <div class="bdt-card-header-title">
+                        <h4>IMAGE GALLERY</h4>
+                    </div>
+                    <div class="bdt-image-gallery-wrapper-style-1 uk-margin-top">
+                        <div class="uk-child-width-1-1@s uk-child-width-1-2@m uk-child-width-1-3@l uk-grid-medium uk-text-center" uk-grid>
+                            <div>
+                                <div class="bdt-gallery-image-style-1">
+                                    <img src="../assets/image/img/gl-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-1">
+                                    <img src="../assets/image/img/gl-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-1">
+                                    <img src="../assets/image/img/gl-3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-1">
+                                    <img src="../assets/image/img/gl-4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-1">
+                                    <img src="../assets/image/img/gl-5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-1">
+                                    <img src="../assets/image/img/gl-6.jpg" alt="">
+                                </div>
+                            </div>            
+                        </div>
+                    </div>
+                </div>
+
+                <!--====================================
+                    Gallery Style-1 End
+                ===================================== --> 
+
+
+                 <!--====================================
+                    Gallery Style-2 Start
+                ===================================== --> 
+                <div class="uk-card uk-card-default uk-card-body uk-margin-top">
+                    <div class="bdt-card-header-title">
+                        <h4>IMAGE GALLERY SCALE UP</h4>
+                    </div>
+                    <div class="bdt-image-gallery-wrapper-style-2 uk-margin-top">
+                        <div class="uk-child-width-1-1@s uk-child-width-1-2@m uk-child-width-1-3@l uk-grid-medium uk-text-center" uk-grid>
+                            <div>
+                                <div class="bdt-gallery-image-style-2">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                        <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/image/img/gl-7.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-2">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                        <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/image/img/gl-8.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-2">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                        <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/image/img/gl-9.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-2">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                        <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/image/img/gl-10.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-2">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                        <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/image/img/gl-.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-2">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                        <img class="uk-transition-scale-up uk-transition-opaque" src="../assets/image/img/gl-3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>           
+                        </div>
+                    </div>
+                </div>
+
+                <!--====================================
+                    Gallery Style-2 End
+                ===================================== --> 
+
+
+                <!--====================================
+                    Gallery Style-3 Start
+                ===================================== --> 
+                <div class="uk-card uk-card-default uk-card-body uk-margin-top">
+                    <div class="bdt-card-header-title">
+                        <h4>SCALE UP CHANGE IMAGE</h4>
+                    </div>
+                    <div class="bdt-image-gallery-wrapper-style-3 uk-margin-top">
+                        <div class="uk-child-width-1-1@s uk-child-width-1-2@m uk-child-width-1-3@l uk-grid-medium uk-text-center" uk-grid>
+                            <div>
+                                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                    <img src="../assets/image/img/gl-.jpg" alt="">
+                                    <img class="uk-transition-scale-up uk-position-cover" src="../assets/image/img/gl-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                    <img src="../assets/image/img/gl-2.jpg" alt="">
+                                    <img class="uk-transition-scale-up uk-position-cover" src="../assets/image/img/gl-3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-3">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                        <img src="../assets/image/img/gl-8.jpg" alt="">
+                                        <img class="uk-transition-scale-up uk-position-cover" src="../assets/image/img/gl-9.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-3">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                        <img src="../assets/image/img/gl-7.jpg" alt="">
+                                        <img class="uk-transition-scale-up uk-position-cover" src="../assets/image/img/gl-6.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-3">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                        <img src="../assets/image/img/gl-5.jpg" alt="">
+                                        <img class="uk-transition-scale-up uk-position-cover" src="../assets/image/img/gl-4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="bdt-gallery-image-style-3">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                        <img src="../assets/image/img/gl-10.jpg" alt="">
+                                        <img class="uk-transition-scale-up uk-position-cover" src="../assets/image/img/gl-11.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>           
+                        </div>
+                    </div>
+                </div>
+
+                <!--====================================
+                    Gallery Style-3 End
+                ===================================== --> 
+
+
+                <!--====================================
+                    Gallery Style-4 Start
+                ===================================== --> 
+                <div class="uk-card uk-card-default uk-card-body uk-margin-top">
+                    <div class="bdt-card-header-title">
+                        <h4>FILTER GALLERY</h4>
+                    </div>
+                      
+                    <div class="bdt-filter-gallery-wrapper-style-4 uk-margin-top">
+                        <div uk-filter="target: .js-filter">
+
+                            <div class="uk-subnav uk-subnav-pill">
+                                <div class="uk-active" uk-filter-control="[data-color='all']"><a class="bdt-filter-button" href="#">All</a></div>
+
+                                <div uk-filter-control="[data-color='web']"><a class="bdt-filter-button" href="#">Web</a></div>
+
+                                <div uk-filter-control="[data-color='drawings']"><a class="bdt-filter-button" href="#">Drawings     
+                                </a></div>
+
+                                <div uk-filter-control="[data-color='ui elements']"><a class="bdt-filter-button" href="#">UI Elements
+                                </a></div>
+                            </div>
+                        
+                            <div class="js-filter uk-child-width-1-2@m uk-child-width-1-4@l uk-grid-medium uk-margin-top " uk-grid  uk-lightbox="animation: slide">
+                                <div data-color="drawings">        
+                                    <a class="uk-inline" href="../assets/image/img/photo1.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo1.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div data-color="all">        
+                                    <a class="uk-inline" href="../assets/image/img/photo1.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo1.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div data-color="web">
+                                    <a class="uk-inline" href="../assets/image/img/photo2.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo2.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div data-color="all">
+                                    <a class="uk-inline" href="../assets/image/img/photo2.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo2.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div data-color="ui elements">
+                                    <a class="uk-inline" href="../assets/image/img/photo3.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo3.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div data-color="all">
+                                    <a class="uk-inline" href="../assets/image/img/photo3.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo3.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div data-color="web">
+                                    <a class="uk-inline" href="../assets/image/img/photo4.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo4.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div data-color="all">
+                                    <a class="uk-inline" href="../assets/image/img/photo4.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo4.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div data-color="drawings">
+                                    <a class="uk-inline" href="../assets/image/img/photo5.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo5.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div data-color="all">
+                                    <a class="uk-inline" href="../assets/image/img/photo5.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo5.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div data-color="web">
+                                    <a class="uk-inline" href="../assets/image/img/photo6.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo6.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div data-color="all">
+                                    <a class="uk-inline" href="../assets/image/img/photo6.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo6.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div data-color="drawings">     
+                                    <a class="uk-inline" href="../assets/image/img/photo7.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo7.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div data-color="all">     
+                                    <a class="uk-inline" href="../assets/image/img/photo7.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo7.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div data-color="ui elements">     
+                                    <a class="uk-inline" href="../assets/image/img/photo8.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo8.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div data-color="all">     
+                                    <a class="uk-inline" href="../assets/image/img/photo8.jpg" data-caption="">
+                                        <div class="bdt-gallery-image">
+                                            <img src="../assets/image/img/photo8.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        
+                        </div>
+                </div>
+                <!--====================================
+                    Gallery Style-4 Start
+                ===================================== --> 
+                    
+                </div>
+            </div>  
+          </div>              
+        <!--====================================
+            Gallery Area End
+        ===================================== --> 
+
+
+       <!--Footer Area Start-->
+       <footer class="bdt-footer">
+        <div class="bdt-footer-area-wrapper">
+                <div class="bdt-footer-copyright">
+                    <span>Copyright © 2019 <a href="https://getuikit.com/">Uikit</a>. All rights reserved.</span>
+                </div>
+
+                <div class="bdt-copyright-icon">
+                    <span>Hand-crafted & made with<span uk-icon="heart"></span>
+                </div>
+           </div>
+      </footer>  
+      <!--Footer Area End-->
+
+      </div>          
+   <!-- main panel End -->
+
+    </div>
+    <!---Page Body Area End--->
+
+
+
+    <!---Offcanvas Start--->
+        <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+        
+                <!-- sidebar Start -->
+                <div class="bdt-sidebar-wraper">
+                    <div class="bdt-nav-profile">
+                        <a href="#" class="bdt-nav-link-profile">
+                            <div class="bdt-profile-image">
+                                <img src="../assets/image/img/face8.jpg" alt="profile image">
+                                <div class="bdt-dot-indicator bdt-bg-success"></div>
+                            </div>
+                            <div class="bdt-text-wrapper">
+                                <p class="bdt-profile-name">Allen Moreno</p>
+                                <p class="bdt-designation">Premium user</p>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <h3 class="bdt-nav-title">Main Menu</h3>
+        
+                    <ul class="uk-nav-default uk-nav-parent-icon bdt-sidebar-nav" uk-nav>
+        
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="../index.html">   
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  file-text"></span> 
+                                <span class="bdt-menu-title"> Dashboard</span>
+                            </a>
+                        </li>
+        
+                        <li class="uk-parent bdt-nav-item">
+                            <a class="bdt-nav-link" href="#">
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon: table"></span> 
+                                <span class="bdt-menu-title"> Basic UI Elements</span>
+                            </a>
+                            <ul class="uk-nav-sub bdt-sub-menu">
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/buttons.html">
+                                        <span class="bdt-sub-menu-title"> Buttons</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/dropdown-button.html">
+                                        <span class="bdt-sub-menu-title">Dropdowns</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/typography.html">
+                                        <span class="bdt-sub-menu-title">Typography</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+        
+                        <li class="uk-parent bdt-nav-item">
+                            <a class="bdt-nav-link" href="#">
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  lifesaver"></span> 
+                                <span class="bdt-menu-title"> Base</span>
+                            </a>
+                            <ul class="uk-nav-sub bdt-sub-menu">
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/accordion.html">
+                                        <span class="bdt-sub-menu-title">Accordion</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/alert.html">
+                                        <span class="bdt-sub-menu-title">Alert</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/slideshow.html">
+                                        <span class="bdt-sub-menu-title">Slideshow</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/model.html">
+                                        <span class="bdt-sub-menu-title">Modal</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/toggle.html">
+                                        <span class="bdt-sub-menu-title">Toggle</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/tooltip.html">
+                                        <span class="bdt-sub-menu-title">Tooltip</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/lightbox.html">
+                                        <span class="bdt-sub-menu-title">Lightbox</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/pagination.html">
+                                        <span class="bdt-sub-menu-title">Pagination</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/breadcrumb.html">
+                                        <span class="bdt-sub-menu-title">Breadcrumb</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/tabs.html">
+                                        <span class="bdt-sub-menu-title">Tabs</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/pricing.html">
+                                        <span class="bdt-sub-menu-title">Pricing</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/blog.html">
+                                        <span class="bdt-sub-menu-title">Blog</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/testimonials.html">
+                                        <span class="bdt-sub-menu-title">Testimonials</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/shadow.html">
+                                        <span class="bdt-sub-menu-title">Shadow</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/gallery.html">
+                                        <span class="bdt-sub-menu-title">Gallery</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/services.html">
+                                        <span class="bdt-sub-menu-title">Services</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/avatars.html">
+                                        <span class="bdt-sub-menu-title">Avatars</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="../pages/form-elements.html">
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon: calendar"></span> 
+                                <span class="bdt-menu-title"> Form elements</span>
+                            </a>
+                        </li>
+        
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="../pages/chart.html">   
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  file-pdf"></span> 
+                                <span class="bdt-menu-title"> Charts</span>
+                            </a>
+                        </li>
+        
+                        <li class="uk-parent bdt-nav-item">
+                            <a class="bdt-nav-link" href="#">
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  server"></span> 
+                                <span class="bdt-menu-title">Media</span>
+                            </a>
+                            <ul class="uk-nav-sub bdt-sub-menu">
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/grid.html">
+                                        <span class="bdt-sub-menu-title">Grid</span>   
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/tile.html">
+                                        <span class="bdt-sub-menu-title">Tile</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/list.html">   
+                                        <span class="bdt-sub-menu-title">List</span>
+                                    </a>
+                                </li>
+                        
+                            </ul>
+                        </li>
+        
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="../pages/tables.html">   
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  bell"></span> 
+                                <span class="bdt-menu-title"> Tables</span>
+                            </a>
+                        </li>
+        
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="../pages/icons.html">   
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  database"></span> 
+                                <span class="bdt-menu-title"> Icons</span>
+                            </a>
+                        </li>
+        
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="../pages/e-commerce .html">   
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:   cart"></span> 
+                                <span class="bdt-menu-title">E-commerce</span>
+                            </a>
+                        </li>
+        
+                        <li class="bdt-nav-item">
+                            <a class="bdt-nav-link" href="../pages/forum.html">   
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  question"></span> 
+                                <span class="bdt-menu-title">Forum</span>
+                            </a>
+                        </li>
+        
+                        <li class="uk-parent bdt-nav-item">
+                            <a class="bdt-nav-link" href="#">
+                                <span class="uk-margin-small-right bdt-menu-icons" uk-icon="icon:  user"></span> 
+                                <span class="bdt-menu-title"> User Pages</span>
+                            </a>
+                            <ul class="uk-nav-sub bdt-sub-menu">
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/blank-page.html">
+                                        <span class="bdt-sub-menu-title"> Blank Page</span>   
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/login.html">
+                                        <span class="bdt-sub-menu-title">Login</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/register.html">   
+                                        <span class="bdt-sub-menu-title">Register</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/404.html">
+                                        <span class="bdt-sub-menu-title">404</span>
+                                    </a>
+                                </li>
+                                <li class="bdt-sub-menu-item">
+                                    <a class="bdt-sub-nav-link" href="../pages/500.html">               
+                                        <span class="bdt-sub-menu-title">500</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+        
+                    </ul>
+                </div>
+                <!-- sidebar End -->
+        
+            </div>
+        </div>
+   <!---Offcanvas End--->
+
+    <script src="../assets/js/jquery-1.12.4.min.js"></script>
+    <script src="../assets/js/uikit.min.js"></script>
+    <script src="../assets/js/uikit-icons.min.js"></script>
+    <script src="../assets/js/Chart.min.js"></script>
+    <script src="../assets/js/dashbord.js"></script>
+
+</body>
+</html>

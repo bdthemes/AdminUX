@@ -1,0 +1,145 @@
+/* ================================================
+    Testimonials Area CSS Start
+================================================ */
+
+
+/* ================================================
+    Testimonials Style-1 CSS Start
+================================================ */
+
+.bdt-testimonials-wrapper-style-1 {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px 5px rgba(68,102,242,.05);
+}
+
+.bdt-testimonials-wrapper-style-1 .bdt-testimonilas-box-style-1 img {
+    border-radius: 100%;
+    width: 80px;
+}
+
+
+.bdt-testimonials-content-style-1 .bdt-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.bdt-testimonials-content-style-1 .bdt-testimonials-icon span {
+    width: 18px;
+    margin-top: 8px;
+    color: #0e41f9;
+}
+
+
+.bdt-testimonials-content-style-1 .bdt-des {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* ================================================
+    Testimonials Style-1 CSS End
+================================================ */
+
+
+/* ================================================
+    Testimonials Style-2 CSS Start
+================================================ */
+
+.bdt-testimonials-wrapper-style-2 {
+    background: #333;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 40px rgba(0,0,0,.3);
+    border-bottom: 3px solid #0949ff;
+}
+
+.bdt-testimonials-wrapper-style-2 .bdt-image-style-2 img {
+    width: 80px;
+    border-radius: 100%;
+    border: 3px solid #0949ff;
+}
+
+.bdt-testimonials-content-style-2 .bdt-des-style-2 {
+    font-size: 14px;
+    color: #ffffffbf;
+    margin-bottom: 20px;
+}
+
+.bdt-testimonials-content-style-2 .bdt-name {
+    font-size: 18px;
+    color: #f4f6f7;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.bdt-testimonials-content-style-2 span {
+    font-size: 14px;
+    color: #0898ff;
+    text-transform: capitalize;
+}
+
+
+/* ================================================
+    Testimonials Style-2 CSS End
+================================================ */
+
+
+/* ================================================
+    Testimonials Style-3 CSS Start
+================================================ */
+
+.bdt-testimonials-wrapper-style-3 {
+    background: #fff;
+    padding: 30px;
+    border-top-left-radius: 65px;
+    border-bottom-right-radius: 65px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.bdt-testimonials-wrapper-style-3 .bdt-testimonilas-team-img-style-3 img {
+    width: 70px;
+    border-radius: 100%;
+}
+
+.bdt-testimonials-content-style-3 .bdt-name {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 700;
+    color: #f0506e;
+}
+
+.bdt-testimonials-content-style-3 span {
+    font-size: 15px;
+    font-weight: 500;
+    color: #222;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.bdt-testimonials-content-style-3 .bdt-testimonilas-icon-style-3 {
+    border-bottom: 2px solid #e488bb59;
+}
+
+.bdt-testimonials-content-style-3 .bdt-testimonilas-icon-style-3 span {
+    width: 18px;
+    color: #f0506e;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bdt-testimonials-content-style-3 .bdt-des {
+    font-size: 14px;
+    margin-top: 12px;
+    color: #222;
+}
+/* ================================================
+    Testimonials Style-3 CSS End
+================================================ */
+
+
+/* ================================================
+    Testimonials Area CSS End
+================================================ */
